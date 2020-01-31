@@ -1,8 +1,8 @@
 import { Link } from "gatsby";
 import React from "react";
-import Me from "../content/cv/me.yaml";
-import Image from "./image";
-import SEO from "./seo";
+import Me from "src/content/cv/me.yaml";
+import Image from "./Image";
+import SEO from "./Seo";
 
 const Home = () => (
   <div>

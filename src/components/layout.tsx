@@ -8,7 +8,7 @@
 import { graphql, useStaticQuery } from "gatsby";
 import PropTypes from "prop-types";
 import React, { FunctionComponent } from "react";
-import Header from "./header";
+import Header from "./Header";
 import "./layout.css";
 
 const Layout: FunctionComponent = ({ children }) => {
