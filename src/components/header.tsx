@@ -1,5 +1,6 @@
 import { Link } from "gatsby";
 import React, { FunctionComponent } from "react";
+import Me from "./Me";
 
 interface HeaderProps {
   siteTitle: string;
@@ -27,7 +28,7 @@ const Header: FunctionComponent<HeaderProps> = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          <Me />
         </Link>
       </h1>
     </div>
