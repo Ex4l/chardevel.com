@@ -9,7 +9,7 @@ interface HeaderProps {
 const Header: FunctionComponent<HeaderProps> = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#1976d2`,
       marginBottom: `1.45rem`,
     }}
   >
