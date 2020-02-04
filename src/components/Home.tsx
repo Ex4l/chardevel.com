@@ -1,15 +1,13 @@
 import { Link } from "gatsby";
 import React from "react";
-import Me from "src/content/cv/me.yaml";
 import Image from "./Image";
+import Introduction from "./Introduction";
 import SEO from "./Seo";
 
 const Home = () => (
   <div>
     <SEO title="Home" />
-    <h1>{Me.title}</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <Introduction />
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
