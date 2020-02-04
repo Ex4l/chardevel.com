@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
+    `gatsby-plugin-tsconfig-paths`,
     `gatsby-plugin-root-import`,
     {
       resolve: `gatsby-source-filesystem`,

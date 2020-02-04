@@ -25,6 +25,7 @@
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
     "gatsby-plugin-root-import": "^2.0.5",
+    "gatsby-plugin-tsconfig-paths": "^1.0.2",
     "prettier": "^1.19.1"
   },
   "keywords": [
