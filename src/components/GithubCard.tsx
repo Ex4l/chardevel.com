@@ -11,22 +11,21 @@ const style = {
   padding: "0.9rem",
 };
 
+const imageLinkStyle = {
+  height: "33px",
+  marginTop: "-0.3rem",
+};
+
 const GithubCard = () => (
   <div style={style}>
     <SEO title={githubData.title} />
-    <p>{githubData.content.intro}</p>
-    <div
-      style={{
-        maxWidth: "80px",
-        width: "100%",
-        marginTop: "-6px",
-        padding: "2px",
-      }}
+    <p style={{ height: "33px" }}>{githubData.content.intro}</p>
+    <a
+      style={imageLinkStyle}
+      href={`${githubData.content.link}/${githubData.content.profile}`}
     >
-      <a href={`${githubData.content.link}/${githubData.content.profile}`}>
-        <GithubImage />
-      </a>
-    </div>
+      <GithubImage />
+    </a>
   </div>
 );
 

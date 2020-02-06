@@ -18,15 +18,15 @@ const GithubImage = () => {
     query {
       placeholderImage: file(relativePath: { eq: "github-logo-black.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
+          fixed(width: 80) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
     }
   `);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  return <Img fixed={data.placeholderImage.childImageSharp.fixed} />;
 };
 
 export default GithubImage;
