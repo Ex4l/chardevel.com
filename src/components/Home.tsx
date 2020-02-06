@@ -1,14 +1,14 @@
+import Skills from "@/components/cv/skills/Skills";
 import { Link } from "gatsby";
 import React from "react";
-import GithubCard from "./GithubCard";
-import Introduction from "./Introduction";
-import SEO from "./Seo";
+import GithubCard from "./cv/GithubCard";
+import Introduction from "./cv/Introduction";
 
 const Home = () => (
   <div>
-    <SEO title="Home" />
     <Introduction />
     <GithubCard />
+    <Skills />
     <Link to="/page-2/">Go to page 2</Link>
   </div>
 );

@@ -8,6 +8,8 @@ const style = {
   border: "1px solid #d1d5da",
   borderRadius: "3px",
   padding: "0.9rem",
+  marginTop: "1.45rem",
+  marginBottom: "1.45rem",
 };
 
 const imageLinkStyle = {

@@ -1,0 +1,25 @@
+{
+  "title": "Compétences Métier",
+  "content": {
+    "skills": [
+      {
+        "name": "Build / Tactique",
+        "Notions": "",
+        "Pratique": "Conception / Modélisation, Ingénierie Système / Outils, Architecture Applicative et Logicielle",
+        "Maitrise": "Développement / Programmation / Craft"
+      },
+      {
+        "name": "Agilité",
+        "Notions": "Maximisation de la valeur produite (MVP), Gestion du backlog produit (création, maintenance, priorisation), Reporting Scrum (indicateurs, management visuel)",
+        "Pratique": "Accompagnement des équipes (auto-organisation, prise de décision, etc.), Assurance du respect du cadre Scrum",
+        "Maitrise": "Animation des rituels Scrum (daily, sprint planning, démo, rétrospective), Veille méthodologique agile, "
+      },
+      {
+        "name": "Qualité Logicielle",
+        "Notions": "",
+        "Pratique": "",
+        "Maitrise": "Amélioration du cahier de recette, Conduite de recettes (Back-up QA)"
+      }
+    ]
+  }
+}
