@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import React, { FunctionComponent } from "react";
-import Me from "./Me";
+import Me from "./cv/Me";
 
 interface HeaderProps {
   siteTitle: string;
