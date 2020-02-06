@@ -1,10 +1,8 @@
 import MeData from "@content/cv/me.json";
 import React from "react";
-import SEO from "./Seo";
 
 const Me = () => (
   <div>
-    <SEO title={MeData.title} />
     <h1>
       {MeData.content.firstName} {MeData.content.lastName} -{" "}
       {MeData.content.job}
