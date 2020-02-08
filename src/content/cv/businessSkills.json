@@ -3,22 +3,28 @@
   "content": {
     "skills": [
       {
+        "name": "",
+        "notions": "Notions \n ⭐",
+        "pratique": "Pratique \n ⭐⭐",
+        "maitrise": "Maîtrise \n ⭐⭐⭐"
+      },
+      {
         "name": "Build / Tactique",
-        "Notions": "",
-        "Pratique": "Conception / Modélisation, Ingénierie Système / Outils, Architecture Applicative et Logicielle",
-        "Maitrise": "Développement / Programmation / Craft"
+        "notions": "",
+        "pratique": "Conception / Modélisation, \n Ingénierie Système / Outils, \n Architecture Applicative et Logicielle",
+        "maitrise": "Programmation / Craft"
       },
       {
         "name": "Agilité",
-        "Notions": "Maximisation de la valeur produite (MVP), Gestion du backlog produit (création, maintenance, priorisation), Reporting Scrum (indicateurs, management visuel)",
-        "Pratique": "Accompagnement des équipes (auto-organisation, prise de décision, etc.), Assurance du respect du cadre Scrum",
-        "Maitrise": "Animation des rituels Scrum (daily, sprint planning, démo, rétrospective), Veille méthodologique agile, "
+        "notions": "Maximisation de la valeur produite (MVP, Spike), \n Gestion du backlog produit (création, maintenance, priorisation), \n Reporting Scrum (indicateurs, management visuel)",
+        "pratique": "Accompagnement des équipes (auto-organisation, prise de décision, etc.), \n Assurance du respect du cadre Scrum",
+        "maitrise": "Animation des rituels Scrum (daily, sprint planning, démo, rétrospective), \n Veille méthodologique agile "
       },
       {
         "name": "Qualité Logicielle",
-        "Notions": "",
-        "Pratique": "",
-        "Maitrise": "Amélioration du cahier de recette, Conduite de recettes (Back-up QA)"
+        "notions": "",
+        "pratique": "",
+        "maitrise": "Amélioration du cahier de recette, Conduite de recettes (Back-up QA)"
       }
     ]
   }

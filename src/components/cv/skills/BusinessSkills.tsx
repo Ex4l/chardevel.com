@@ -1,8 +1,7 @@
 import businessSkillsData from "@content/cv/businessSkills.json";
 import React from "react";
+import SkillsTable from "./SkillsTable";
 
-const BusinessSkills = () => {
-  return <h2>{businessSkillsData.title}</h2>;
-};
+const BusinessSkills = () => <SkillsTable data={businessSkillsData} />;
 
 export default BusinessSkills;
