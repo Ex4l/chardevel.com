@@ -1,8 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 import BusinessSkills from "./BusinessSkills";
+import TechnicalSkills from "./TechnicalSkills";
 
-const Skills = () => {
-  return <BusinessSkills />;
-};
+const Skills = () => (
+  <Fragment>
+    <BusinessSkills />
+    <TechnicalSkills />
+  </Fragment>
+);
 
 export default Skills;
