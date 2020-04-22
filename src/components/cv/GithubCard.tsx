@@ -1,6 +1,7 @@
 import githubData from "@content/cv/github.json";
 import React from "react";
-import GithubImage from "./GithubImage";
+import { DiGithubFull } from "react-icons/di";
+import "src/styles/github-card.css";
 
 const style = {
   display: "flex",
@@ -13,8 +14,8 @@ const style = {
 };
 
 const imageLinkStyle = {
-  height: "33px",
-  marginTop: "-0.3rem",
+  marginLeft: "0.2rem",
+  marginTop: "-0.7rem",
 };
 
 const GithubCard = () => (
@@ -24,7 +25,7 @@ const GithubCard = () => (
       style={imageLinkStyle}
       href={`${githubData.content.link}/${githubData.content.profile}`}
     >
-      <GithubImage />
+      <DiGithubFull className="github-icon" size={52} />
     </a>
   </div>
 );
