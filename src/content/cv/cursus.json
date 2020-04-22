@@ -5,31 +5,63 @@
       {
         "title": "Ingénieur Études et Développement",
         "time": "2019 - ",
-        "place": "Extia (SSII)",
+        "place": "Extia - Lille",
         "type": "work"
+      },
+      {
+        "title": "Formation Spring Officielle by Pivotal",
+        "time": "2018",
+        "place": "Zenika - Paris",
+        "type": "school"
+      },
+      {
+        "title": "Formation Scrum Master",
+        "time": "2017",
+        "place": "Open - Lille",
+        "type": "school"
+      },
+      {
+        "title": "Certification PCI DSS by Orange Business",
+        "time": "2017",
+        "place": "Open - Lille",
+        "type": "school"
       },
       {
         "title": "Ingénieur Études et Développement",
         "time": "2015 - 2019",
-        "place": "Open (SSII)",
+        "place": "Open - Lille",
         "type": "work"
       },
       {
         "title": "Ingénieur Logiciel",
         "time": "2014 - 2015",
-        "place": "Capgemini (SSII)",
+        "place": "Capgemini - Lille",
         "type": "work"
+      },
+      {
+        "title": "E2I2 (Expert En Ingénierie Informatique)",
+        "subtitle": "Alternance à Efficom et à Domotex en tant qu’Analyste Développeur.",
+        "time": "2014",
+        "place": "Efficom - Lille",
+        "type": "school"
       },
       {
         "title": "Analyste Développeur",
         "time": "2012 - 2014",
-        "place": "DOMOTEX (Ennoblissement Textile)",
+        "place": "DOMOTEX (Ennoblissement Textile) - Saint-André-Lez-Lille",
         "type": "work"
+      },
+      {
+        "title": "Licence Professionnelle Informatique de Gestion",
+        "subtitle": "Alternance à l’Université de Valenciennes et à Sevelnord en tant que Développeur d’applications",
+        "time": "2012",
+        "place": "UVHC - Valenciennes",
+        "type": "school"
       },
       {
         "title": "Développeur d'applications",
         "time": "2011 - 2012",
-        "place": "Sevelnord(Usine Peugeot/Citroën)",
+        "place": "Sevelnord (Usine Peugeot/Citroën) - Valenciennes",
         "type": "work"
       }
     ]

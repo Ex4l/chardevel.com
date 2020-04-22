@@ -37,6 +37,7 @@ const Cursus = () => (
             <h4 className="vertical-timeline-element-subtitle">
               {experience.place}
             </h4>
+            <p>{experience.subtitle}</p>
           </VerticalTimelineElement>
         );
       })}
