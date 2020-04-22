@@ -4,28 +4,33 @@
     "experience": [
       {
         "title": "Ingénieur Études et Développement",
-        "time": "De Mai 2019 à",
-        "place": "Extia (SSII)"
+        "time": "2019 - ",
+        "place": "Extia (SSII)",
+        "type": "work"
       },
       {
         "title": "Ingénieur Études et Développement",
-        "time": "De Mai 2015 à Mai 2019",
-        "place": "Open (SSII)"
+        "time": "2015 - 2019",
+        "place": "Open (SSII)",
+        "type": "work"
       },
       {
         "title": "Ingénieur Logiciel",
-        "time": "De Novembre 2014 à Mai 2015",
-        "place": "Capgemini (SSII)"
+        "time": "2014 - 2015",
+        "place": "Capgemini (SSII)",
+        "type": "work"
       },
       {
         "title": "Analyste Développeur",
-        "time": "De Septembre 2012 à Septembre 2014",
-        "place": "DOMOTEX (Ennoblissement Textile)"
+        "time": "2012 - 2014",
+        "place": "DOMOTEX (Ennoblissement Textile)",
+        "type": "work"
       },
       {
         "title": "Développeur d'applications",
-        "time": "De Novembre 2011 à Août 2012",
-        "place": "Sevelnord(Usine Peugeot/Citroën)"
+        "time": "2011 - 2012",
+        "place": "Sevelnord(Usine Peugeot/Citroën)",
+        "type": "work"
       }
     ]
   }
