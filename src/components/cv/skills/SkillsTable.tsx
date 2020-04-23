@@ -1,4 +1,5 @@
 import React from "react";
+import { BsStarFill } from "react-icons/bs";
 import ISkills from "./skillsData";
 
 interface IProps {
@@ -7,6 +8,7 @@ interface IProps {
 
 const SkillsTable = ({ data: { title, content } }: IProps) => {
   const cellStyle = { textAlign: "center" as "center", fontSize: "smaller" };
+  const starColor = "#f9d71c";
 
   const newlineToBreak = (text: string): JSX.Element[] => {
     return text.split("\n").map((item, key) => {
@@ -34,21 +36,33 @@ const SkillsTable = ({ data: { title, content } }: IProps) => {
                 </td>
                 <td style={cellStyle}>
                   {firstLine ? (
-                    <h5>{newlineToBreak(skill.notions)}</h5>
+                    <h5>
+                      {newlineToBreak(skill.notions)}
+                      <BsStarFill color={starColor} />
+                    </h5>
                   ) : (
                     newlineToBreak(skill.notions)
                   )}
                 </td>
                 <td style={cellStyle}>
                   {firstLine ? (
-                    <h5>{newlineToBreak(skill.pratique)}</h5>
+                    <h5>
+                      {newlineToBreak(skill.pratique)}
+                      <BsStarFill color={starColor} />
+                      <BsStarFill color={starColor} />
+                    </h5>
                   ) : (
                     newlineToBreak(skill.pratique)
                   )}
                 </td>
                 <td style={cellStyle}>
                   {firstLine ? (
-                    <h5>{newlineToBreak(skill.maitrise)}</h5>
+                    <h5>
+                      {newlineToBreak(skill.maitrise)}
+                      <BsStarFill color={starColor} />
+                      <BsStarFill color={starColor} />
+                      <BsStarFill color={starColor} />
+                    </h5>
                   ) : (
                     newlineToBreak(skill.maitrise)
                   )}
