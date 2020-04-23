@@ -32,11 +32,11 @@ const SkillsTable = ({ data: { title, content } }: IProps) => {
             return (
               <tr key={`${skill.name}-${index}`}>
                 <td style={cellStyle}>
-                  <h5>{skill.name}</h5>
+                  <h5 className="skill-table-title">{skill.name}</h5>
                 </td>
                 <td style={cellStyle}>
                   {firstLine ? (
-                    <h5>
+                    <h5 className="skill-table-title">
                       {newlineToBreak(skill.notions)}
                       <BsStarFill color={starColor} />
                     </h5>
@@ -46,7 +46,7 @@ const SkillsTable = ({ data: { title, content } }: IProps) => {
                 </td>
                 <td style={cellStyle}>
                   {firstLine ? (
-                    <h5>
+                    <h5 className="skill-table-title">
                       {newlineToBreak(skill.pratique)}
                       <BsStarFill color={starColor} />
                       <BsStarFill color={starColor} />
@@ -57,7 +57,7 @@ const SkillsTable = ({ data: { title, content } }: IProps) => {
                 </td>
                 <td style={cellStyle}>
                   {firstLine ? (
-                    <h5>
+                    <h5 className="skill-table-title">
                       {newlineToBreak(skill.maitrise)}
                       <BsStarFill color={starColor} />
                       <BsStarFill color={starColor} />
