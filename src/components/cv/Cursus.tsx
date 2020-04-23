@@ -30,7 +30,7 @@ const Cursus = () => (
                 : experience.time
             }
             dateClassName={"cursusDate"}
-            iconStyle={{ background: "#1976d2", color: "#fff" }}
+            iconStyle={{ background: "#5BC0EB", color: "#fff" }}
             icon={icon}
           >
             <h3>{experience.title}</h3>

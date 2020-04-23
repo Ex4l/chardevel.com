@@ -8,7 +8,7 @@ interface IProps {
 
 const SkillsTable = ({ data: { title, content } }: IProps) => {
   const cellStyle = { textAlign: "center" as "center", fontSize: "smaller" };
-  const starColor = "#f9d71c";
+  const starColor = "#FDE74C";
 
   const newlineToBreak = (text: string): JSX.Element[] => {
     return text.split("\n").map((item, key) => {

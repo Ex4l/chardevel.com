@@ -10,7 +10,7 @@ const Header: FunctionComponent<HeaderProps> = ({ siteTitle }) => (
   <header
     id="site-header"
     style={{
-      background: `#1976d2`,
+      background: `#5BC0EB`,
       marginBottom: `1.45rem`,
     }}
   >

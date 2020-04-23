@@ -1,0 +1,42 @@
+.languages-container {
+}
+
+.language-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.45rem;
+  text-align: center;
+  justify-content: end;
+}
+
+.language-and-level {
+  min-width: 150px;
+}
+
+.language-item-language {
+  margin-bottom: 0.3rem;
+}
+
+.language-item-level {
+  color: hsla(0, 0%, 0%, 0.7);
+  font-weight: 100;
+  font-family: georgia, serif;
+  font-size: 15.75px;
+}
+
+.language-item-rate {
+  display: flex;
+  align-items: center;
+}
+
+.rate-flask-full {
+  margin-left: 8px;
+  margin-right: 8px;
+  color: hsla(79, 54%, 51%);
+}
+
+.rate-flask-empty {
+  margin-left: 8px;
+  margin-right: 8px;
+  color: hsla(79, 54%, 51%, 0.5);
+}

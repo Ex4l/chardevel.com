@@ -1,0 +1,8 @@
+{
+  "title": "Je parle",
+  "content": [
+    { "language": "Français", "level": "Natif", "rate": 10 },
+    { "language": "Anglais", "level": "Courant", "rate": 8 },
+    { "language": "Espagnol", "level": "Scolaire", "rate": 6 }
+  ]
+}
