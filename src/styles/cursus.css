@@ -1,3 +1,7 @@
+.cursus-container {
+  margin-bottom: 1.45rem;
+}
+
 span.vertical-timeline-element-date {
   color: hsla(0, 0%, 0%, 0.7);
 }

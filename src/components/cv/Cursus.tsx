@@ -1,5 +1,5 @@
 import cursusData from "@content/cv/cursus.json";
-import React, { Fragment } from "react";
+import React from "react";
 import { MdSchool, MdWork } from "react-icons/md";
 import {
   VerticalTimeline,
@@ -10,7 +10,7 @@ import "src/styles/cursus.css";
 import { today } from "src/utils/dateUtils";
 
 const Cursus = () => (
-  <Fragment>
+  <div className="cursus-container">
     <h1>{cursusData.title}</h1>
     <VerticalTimeline>
       {cursusData.content.experience.map((experience, index) => {
@@ -42,7 +42,7 @@ const Cursus = () => (
         );
       })}
     </VerticalTimeline>
-  </Fragment>
+  </div>
 );
 
 export default Cursus;
