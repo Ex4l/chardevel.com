@@ -28,12 +28,6 @@ const returnView = (rate: number) => {
     );
   }
 
-  console.log(view.length);
-
-  // for (let j = view.length; j < rate; j++) {
-  //   view.push(<GiRoundBottomFlask size={24} color="grey" />);
-  // }
-
   return view;
 };
 
