@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   margin-bottom: 1.45rem;
   text-align: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .language-and-level {
