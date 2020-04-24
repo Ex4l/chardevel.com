@@ -1,5 +1,5 @@
 import Hobby from "@components/cv/Hobby";
-import HobbiesData from "@content/cv/hobbies.json";
+import HobbiesData from "@content/cv/fr-FR/hobbies.json";
 import React from "react";
 import "src/styles/hobbies.css";
 

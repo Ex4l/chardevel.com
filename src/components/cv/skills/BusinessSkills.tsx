@@ -1,4 +1,4 @@
-import businessSkillsData from "@content/cv/businessSkills.json";
+import businessSkillsData from "@content/cv/fr-FR/businessSkills.json";
 import React from "react";
 import SkillsTable from "./SkillsTable";
 

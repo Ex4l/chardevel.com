@@ -1,5 +1,5 @@
 import CvCard from "@components/cv/CvCard";
-import githubData from "@content/cv/github.json";
+import githubData from "@content/cv/fr-FR/github.json";
 import React from "react";
 import { DiGithubFull } from "react-icons/di";
 import "src/styles/github-card.css";

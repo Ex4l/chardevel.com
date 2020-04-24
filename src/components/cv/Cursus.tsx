@@ -1,4 +1,4 @@
-import cursusData from "@content/cv/cursus.json";
+import cursusData from "@content/cv/fr-FR/cursus.json";
 import React from "react";
 import { MdSchool, MdWork } from "react-icons/md";
 import {

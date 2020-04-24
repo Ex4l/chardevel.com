@@ -1,5 +1,5 @@
 import { today } from "@/utils/dateUtils";
-import introductionData from "@content/cv/introduction.json";
+import introductionData from "@content/cv/fr-FR/introduction.json";
 import React from "react";
 
 const getAge = (): string => {
