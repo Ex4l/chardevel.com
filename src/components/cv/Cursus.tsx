@@ -11,7 +11,7 @@ import { today } from "src/utils/dateUtils";
 
 const Cursus = () => (
   <div className="cursus-container">
-    <h1>{cursusData.title}</h1>
+    <h2>{cursusData.title}</h2>
     <VerticalTimeline>
       {cursusData.content.experience.map((experience, index) => {
         const firstLine = index === 0;

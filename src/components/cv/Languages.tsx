@@ -6,7 +6,7 @@ import CvCard from "./CvCard";
 
 const Languages = () => (
   <div>
-    <h1>{languagesData.title}</h1>
+    <h2>{languagesData.title}</h2>
     <CvCard childrenPosition="center">
       <div className="languages-container">
         {languagesData.content.map((item, index) => {
