@@ -8,8 +8,8 @@ interface IProps {
   style: {
     width: string;
     height: string;
-    frontBackgroundColor: string;
-    backBackgroundColor: string;
+    frontBackgroundColor?: string;
+    backBackgroundColor?: string;
   };
 }
 
