@@ -1,0 +1,14 @@
+{
+  "me": {
+    "job": "Fullstack Web Developer",
+    "phoneNumber": "+33 6 62 71 11 60"
+  },
+  "introduction": {
+    "content": "Web development engineer, I've been working for {AGE} years using Agile on front-end and back-end technologies. \n I love Javascript, React and Java."
+  },
+  "github": {
+    "content": {
+      "intro": "You can find me on"
+    }
+  }
+}
