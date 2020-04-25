@@ -3,7 +3,7 @@ import "src/styles/flip-card.css";
 
 interface IProps {
   icon: React.ReactElement;
-  front: React.ReactElement;
+  front?: React.ReactElement;
   back: React.ReactElement;
   style: {
     width: string;

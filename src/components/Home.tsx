@@ -1,10 +1,11 @@
-import Skills from "@/components/cv/skills/Skills";
 import React from "react";
+import Clients from "./cv/Clients";
 import Cursus from "./cv/Cursus";
 import GithubCard from "./cv/GithubCard";
 import Hobbies from "./cv/Hobbies";
 import Introduction from "./cv/Introduction";
 import Languages from "./cv/Languages";
+import Skills from "./cv/skills/Skills";
 
 const Home = () => (
   <div>
@@ -14,6 +15,7 @@ const Home = () => (
     <Cursus />
     <Languages />
     <Hobbies />
+    <Clients />
   </div>
 );
 

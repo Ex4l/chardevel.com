@@ -8,7 +8,7 @@ const Hobbies = () => (
     <h2>{HobbiesData.title}</h2>
     <div className="hobbies-container">
       {HobbiesData.content.map((item, index) => {
-        return <Hobby item={item} />;
+        return <Hobby key={`${index}-${item.title}`} item={item} />;
       })}
     </div>
   </div>
