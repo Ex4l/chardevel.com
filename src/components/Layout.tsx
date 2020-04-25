@@ -33,7 +33,7 @@ const Layout: FunctionComponent = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>This is a footer</footer>
+        <footer></footer>
       </div>
     </>
   );
