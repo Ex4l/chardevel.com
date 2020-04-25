@@ -1,0 +1,14 @@
+{
+  "me": {
+    "job": "Développeur Fullstack Web",
+    "phoneNumber": "06 62 71 11 60"
+  },
+  "introduction": {
+    "content": "Ingénieur en développement Fullstack, je travaille depuis {AGE} ans en méthodologie Agile sur les technologies Front-End et Back-End. \n J’affectionne particulièrement le Javascript, React, ainsi que le Java."
+  },
+  "github": {
+    "content": {
+      "intro": "Vous pouvez me retrouver sur"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "J'évolue dans cet environnement",
+  "content": {
+    "skills": [
+      {
+        "name": "",
+        "notions": "Notions",
+        "pratique": "Pratique",
+        "maitrise": "Maîtrise"
+      },
+      {
+        "name": "Build / Tactique",
+        "notions": "",
+        "pratique": "Conception / Modélisation, \n Ingénierie Système / Outils, \n Architecture Applicative et Logicielle",
+        "maitrise": "Programmation / Craft"
+      },
+      {
+        "name": "Agilité",
+        "notions": "Maximisation de la valeur produite (MVP, Spike), \n Gestion du backlog produit (création, maintenance, priorisation), \n Reporting Scrum (indicateurs, management visuel)",
+        "pratique": "Accompagnement des équipes (auto-organisation, prise de décision, etc.), \n Assurance du respect du cadre Scrum",
+        "maitrise": "Animation des rituels Scrum (daily, sprint planning, démo, rétrospective), \n Veille méthodologique agile "
+      },
+      {
+        "name": "Qualité Logicielle",
+        "notions": "",
+        "pratique": "",
+        "maitrise": "Amélioration du cahier de recette, Conduite de recettes (Back-up QA)"
+      }
+    ]
+  }
+}

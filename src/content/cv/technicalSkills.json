@@ -1,0 +1,37 @@
+{
+  "title": "Techniquement je suis à l'aise avec",
+  "content": {
+    "skills": [
+      {
+        "name": "",
+        "notions": "Notions",
+        "pratique": "Pratique",
+        "maitrise": "Maîtrise"
+      },
+      {
+        "name": "Outils",
+        "notions": "",
+        "pratique": "AWS S3, \n Rancher, Docker, \n Springboot, Maven \n Webpack, Node, \n Next.js, Phrase",
+        "maitrise": "Jenkins, \n git, GitHub"
+      },
+      {
+        "name": "Bases de données",
+        "notions": "Maria DB",
+        "pratique": "Oracle SQL",
+        "maitrise": "MySQL, PostgreSQL"
+      },
+      {
+        "name": "Méthodologies",
+        "notions": "",
+        "pratique": "Kanban, Lean",
+        "maitrise": "Agile, SCRUM"
+      },
+      {
+        "name": "Programmation",
+        "notions": "Python",
+        "pratique": "Java, \n Bash",
+        "maitrise": "Typescript, Javascript, React, \n Angular JS, Angular, \n HTML5, SASS, LESS"
+      }
+    ]
+  }
+}

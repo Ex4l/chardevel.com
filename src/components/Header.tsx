@@ -1,5 +1,6 @@
-import { Link } from "gatsby";
 import React, { FunctionComponent } from "react";
+import "src/styles/header.css";
+import Me from "./cv/Me";
 
 interface HeaderProps {
   siteTitle: string;
@@ -7,8 +8,9 @@ interface HeaderProps {
 
 const Header: FunctionComponent<HeaderProps> = ({ siteTitle }) => (
   <header
+    id="site-header"
     style={{
-      background: `rebeccapurple`,
+      background: `#5BC0EB`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -20,15 +22,7 @@ const Header: FunctionComponent<HeaderProps> = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
+        <Me />
       </h1>
     </div>
   </header>

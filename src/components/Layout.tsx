@@ -8,7 +8,7 @@
 import { graphql, useStaticQuery } from "gatsby";
 import PropTypes from "prop-types";
 import React, { FunctionComponent } from "react";
-import Header from "./header";
+import Header from "./Header";
 import "./layout.css";
 
 const Layout: FunctionComponent = ({ children }) => {
@@ -33,11 +33,7 @@ const Layout: FunctionComponent = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <footer></footer>
       </div>
     </>
   );

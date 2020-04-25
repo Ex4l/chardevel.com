@@ -1,0 +1,30 @@
+{
+  "title": "J'aime particulièrement",
+  "content": [
+    {
+      "icon": "GiKnifeFork",
+      "title": "La cuisine",
+      "subtitle": "D'ici ou d'ailleurs j'aime découvrir de nouvelles saveurs."
+    },
+    {
+      "icon": "GiDutchBike",
+      "title": "Le vélo",
+      "subtitle": "C'est d'ailleurs également mon moyen de transport."
+    },
+    {
+      "icon": "GiMusicalNotes",
+      "title": "Les concerts",
+      "subtitle": "Je ne compte plus le nombre de watts à mon actif."
+    },
+    {
+      "icon": "GiPencilBrush",
+      "title": "Le dessin",
+      "subtitle": "Je peux passer des heures pour avoir \"la\" ligne parfaite."
+    },
+    {
+      "icon": "GiWhiteBook",
+      "title": "La littérature",
+      "subtitle": "De Murakami à Werber en passant par K. Dick."
+    }
+  ]
+}
