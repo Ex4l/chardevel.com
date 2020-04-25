@@ -1,4 +1,4 @@
-import MeData from "@content/cv/fr-FR/me.json";
+import MeData from "@content/cv/me.json";
 import React from "react";
 
 const Me = () => (

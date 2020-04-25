@@ -1,5 +1,5 @@
 import Client from "@components/cv/Client";
-import ClientsData from "@content/cv/fr-FR/clients.json";
+import ClientsData from "@content/cv/clients.json";
 import React from "react";
 import "src/styles/clients.css";
 
