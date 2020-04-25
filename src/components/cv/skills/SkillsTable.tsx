@@ -1,5 +1,6 @@
 import React from "react";
 import { BsStarFill } from "react-icons/bs";
+import { newline } from "src/utils/jsxUtils";
 import ISkills from "./skillsData";
 
 interface IProps {
@@ -9,17 +10,6 @@ interface IProps {
 const SkillsTable = ({ data: { title, content } }: IProps) => {
   const cellStyle = { textAlign: "center" as "center", fontSize: "smaller" };
   const starColor = "#FDE74C";
-
-  const newlineToBreak = (text: string): JSX.Element[] => {
-    return text.split("\n").map((item, key) => {
-      return (
-        <span key={key}>
-          {item}
-          <br />
-        </span>
-      );
-    });
-  };
 
   return (
     <div>
@@ -37,34 +27,34 @@ const SkillsTable = ({ data: { title, content } }: IProps) => {
                 <td style={cellStyle}>
                   {firstLine ? (
                     <h5 className="skill-table-title">
-                      {newlineToBreak(skill.notions)}
+                      {newline(skill.notions)}
                       <BsStarFill color={starColor} />
                     </h5>
                   ) : (
-                    newlineToBreak(skill.notions)
+                    newline(skill.notions)
                   )}
                 </td>
                 <td style={cellStyle}>
                   {firstLine ? (
                     <h5 className="skill-table-title">
-                      {newlineToBreak(skill.pratique)}
+                      {newline(skill.pratique)}
                       <BsStarFill color={starColor} />
                       <BsStarFill color={starColor} />
                     </h5>
                   ) : (
-                    newlineToBreak(skill.pratique)
+                    newline(skill.pratique)
                   )}
                 </td>
                 <td style={cellStyle}>
                   {firstLine ? (
                     <h5 className="skill-table-title">
-                      {newlineToBreak(skill.maitrise)}
+                      {newline(skill.maitrise)}
                       <BsStarFill color={starColor} />
                       <BsStarFill color={starColor} />
                       <BsStarFill color={starColor} />
                     </h5>
                   ) : (
-                    newlineToBreak(skill.maitrise)
+                    newline(skill.maitrise)
                   )}
                 </td>
               </tr>
