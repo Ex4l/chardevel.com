@@ -67,58 +67,60 @@
     },
     "cursus": {
       "title": "Je suis passé par ici",
-      "0": {
-        "title": "Ingénieur Études et Développement",
-        "time": "2019 - ",
-        "place": "Extia - Lille"
-      },
-      "1": {
-        "title": "Formation Spring Officielle by Pivotal",
-        "time": "2018",
-        "place": "Zenika - Paris"
-      },
-      "2": {
-        "title": "Formation Scrum Master",
-        "time": "2017",
-        "place": "Open - Lille"
-      },
-      "3": {
-        "title": "Certification PCI DSS by Orange Business",
-        "time": "2017",
-        "place": "Open - Lille"
-      },
-      "4": {
-        "title": "Ingénieur Études et Développement",
-        "time": "2015 - 2019",
-        "place": "Open - Lille"
-      },
-      "5": {
-        "title": "Ingénieur Logiciel",
-        "time": "2014 - 2015",
-        "place": "Capgemini - Lille"
-      },
-      "6": {
-        "title": "E2I (Expert En Ingénierie Informatique)",
-        "subtitle": "Alternance à Efficom et à Domotex en tant qu’Analyste Développeur.",
-        "time": "2014",
-        "place": "Efficom - Lille"
-      },
-      "7": {
-        "title": "Analyste Développeur",
-        "time": "2012 - 2014",
-        "place": "DOMOTEX (Ennoblissement Textile) - Saint-André-Lez-Lille"
-      },
-      "8": {
-        "title": "Licence Professionnelle Informatique de Gestion",
-        "subtitle": "Alternance à l’Université de Valenciennes et à Sevelnord en tant que Développeur d’applications",
-        "time": "2012",
-        "place": "UVHC - Valenciennes"
-      },
-      "9": {
-        "title": "Développeur d'applications",
-        "time": "2011 - 2012",
-        "place": "Sevelnord (Peugeot/Citroën) - Valenciennes"
-      }
+      "content": [
+        {
+          "title": "Ingénieur Études et Développement",
+          "time": "2019 - ",
+          "place": "Extia - Lille"
+        },
+        {
+          "title": "Formation Spring Officielle by Pivotal",
+          "time": "2018",
+          "place": "Zenika - Paris"
+        },
+        {
+          "title": "Formation Scrum Master",
+          "time": "2017",
+          "place": "Open - Lille"
+        },
+        {
+          "title": "Certification PCI DSS by Orange Business",
+          "time": "2017",
+          "place": "Open - Lille"
+        },
+        {
+          "title": "Ingénieur Études et Développement",
+          "time": "2015 - 2019",
+          "place": "Open - Lille"
+        },
+        {
+          "title": "Ingénieur Logiciel",
+          "time": "2014 - 2015",
+          "place": "Capgemini - Lille"
+        },
+        {
+          "title": "E2I (Expert En Ingénierie Informatique)",
+          "subtitle": "Alternance à Efficom et à Domotex en tant qu’Analyste Développeur.",
+          "time": "2014",
+          "place": "Efficom - Lille"
+        },
+        {
+          "title": "Analyste Développeur",
+          "time": "2012 - 2014",
+          "place": "DOMOTEX (Ennoblissement Textile) - Saint-André-Lez-Lille"
+        },
+        {
+          "title": "Licence Professionnelle Informatique de Gestion",
+          "subtitle": "Alternance à l’Université de Valenciennes et à Sevelnord en tant que Développeur d’applications",
+          "time": "2012",
+          "place": "UVHC - Valenciennes"
+        },
+        {
+          "title": "Développeur d'applications",
+          "time": "2011 - 2012",
+          "place": "Sevelnord (Peugeot/Citroën) - Valenciennes"
+        }
+      ]
     }
   }
 }

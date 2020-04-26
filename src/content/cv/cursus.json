@@ -3,65 +3,65 @@
   "content": {
     "experience": [
       {
-        "title": "cursus.0.title",
-        "time": "cursus.0.time",
-        "place": "cursus.0.place",
+        "title": "cursus.content.0.title",
+        "time": "cursus.content.0.time",
+        "place": "cursus.content.0.place",
         "type": "work"
       },
       {
-        "title": "cursus.1.title",
-        "time": "cursus.1.time",
-        "place": "cursus.1.place",
+        "title": "cursus.content.1.title",
+        "time": "cursus.content.1.time",
+        "place": "cursus.content.1.place",
         "type": "school"
       },
       {
-        "title": "cursus.2.title",
-        "time": "cursus.2.time",
-        "place": "cursus.2.place",
+        "title": "cursus.content.2.title",
+        "time": "cursus.content.2.time",
+        "place": "cursus.content.2.place",
         "type": "school"
       },
       {
-        "title": "cursus.3.title",
-        "time": "cursus.3.time",
-        "place": "cursus.3.place",
+        "title": "cursus.content.3.title",
+        "time": "cursus.content.3.time",
+        "place": "cursus.content.3.place",
         "type": "school"
       },
       {
-        "title": "cursus.4.title",
-        "time": "cursus.4.time",
-        "place": "cursus.4.place",
+        "title": "cursus.content.4.title",
+        "time": "cursus.content.4.time",
+        "place": "cursus.content.4.place",
         "type": "work"
       },
       {
-        "title": "cursus.5.title",
-        "time": "cursus.5.time",
-        "place": "cursus.5.place",
+        "title": "cursus.content.5.title",
+        "time": "cursus.content.5.time",
+        "place": "cursus.content.5.place",
         "type": "work"
       },
       {
-        "title": "cursus.6.title",
-        "subtitle": "cursus.6.subtitle",
-        "time": "cursus.6.time",
-        "place": "cursus.6.place",
+        "title": "cursus.content.6.title",
+        "subtitle": "cursus.content.6.subtitle",
+        "time": "cursus.content.6.time",
+        "place": "cursus.content.6.place",
         "type": "school"
       },
       {
-        "title": "cursus.7.title",
-        "time": "cursus.7.time",
-        "place": "cursus.7.place",
+        "title": "cursus.content.7.title",
+        "time": "cursus.content.7.time",
+        "place": "cursus.content.7.place",
         "type": "work"
       },
       {
-        "title": "cursus.8.title",
-        "subtitle": "cursus.8.subtitle",
-        "time": "cursus.8.time",
-        "place": "cursus.8.place",
+        "title": "cursus.content.8.title",
+        "subtitle": "cursus.content.8.subtitle",
+        "time": "cursus.content.8.time",
+        "place": "cursus.content.8.place",
         "type": "school"
       },
       {
-        "title": "cursus.9.title",
-        "time": "cursus.9.time",
-        "place": "cursus.9.place",
+        "title": "cursus.content.9.title",
+        "time": "cursus.content.9.time",
+        "place": "cursus.content.9.place",
         "type": "work"
       }
     ]
