@@ -14,7 +14,7 @@ const Me = () => {
       </h1>
       <h2>{t(MeData.content.phoneNumber)}</h2>
       <h2>
-        <a href={mail}>{mail}</a>
+        <a href={`mailto:${mail}`}>{mail}</a>
       </h2>
     </div>
   );
