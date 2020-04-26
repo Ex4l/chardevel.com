@@ -1,0 +1,13 @@
+.hobbies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hobby-title {
+  color: white;
+}
+
+.hobby-subtitle {
+  color: white;
+}

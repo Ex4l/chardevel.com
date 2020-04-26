@@ -1,0 +1,30 @@
+{
+  "title": "hobbies.title",
+  "content": [
+    {
+      "icon": "GiKnifeFork",
+      "title": "hobbies.content.0.title",
+      "subtitle": "hobbies.content.0.subtitle"
+    },
+    {
+      "icon": "GiDutchBike",
+      "title": "hobbies.content.1.title",
+      "subtitle": "hobbies.content.1.subtitle"
+    },
+    {
+      "icon": "GiMusicalNotes",
+      "title": "hobbies.content.2.title",
+      "subtitle": "hobbies.content.2.subtitle"
+    },
+    {
+      "icon": "GiPencilBrush",
+      "title": "hobbies.content.3.title",
+      "subtitle": "hobbies.content.3.subtitle"
+    },
+    {
+      "icon": "GiWhiteBook",
+      "title": "hobbies.content.4.title",
+      "subtitle": "hobbies.content.4.subtitle"
+    }
+  ]
+}

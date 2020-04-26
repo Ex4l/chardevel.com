@@ -1,0 +1,18 @@
+.clients-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.client-title {
+  color: white;
+}
+
+.client-subtitle {
+  color: white;
+}
+
+.decathlon-logo {
+  width: 160px;
+  height: 160px;
+}

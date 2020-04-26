@@ -1,0 +1,31 @@
+{
+  "title": "skills.business.title",
+  "content": {
+    "skills": [
+      {
+        "name": "",
+        "notions": "skills.levels.notions",
+        "practice": "skills.levels.practice",
+        "mastery": "skills.levels.mastery"
+      },
+      {
+        "name": "skills.business.build.title",
+        "notions": "skills.business.build.notions",
+        "practice": "skills.business.build.practice",
+        "mastery": "skills.business.build.mastery"
+      },
+      {
+        "name": "skills.business.agile.title",
+        "notions": "skills.business.agile.notions",
+        "practice": "skills.business.agile.practice",
+        "mastery": "skills.business.agile.mastery"
+      },
+      {
+        "name": "skills.business.quality.title",
+        "notions": "skills.business.quality.notions",
+        "practice": "skills.business.quality.practice",
+        "mastery": "skills.business.quality.mastery"
+      }
+    ]
+  }
+}

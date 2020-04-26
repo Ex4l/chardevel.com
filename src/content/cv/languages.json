@@ -1,0 +1,20 @@
+{
+  "title": "Je parle",
+  "content": [
+    {
+      "language": "languages.content.0.language",
+      "level": "languages.content.0.level",
+      "rate": 10
+    },
+    {
+      "language": "languages.content.1.language",
+      "level": "languages.content.1.level",
+      "rate": 8
+    },
+    {
+      "language": "languages.content.2.language",
+      "level": "languages.content.2.level",
+      "rate": 6
+    }
+  ]
+}

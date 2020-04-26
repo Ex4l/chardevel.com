@@ -1,0 +1,37 @@
+{
+  "title": "skills.technical.title",
+  "content": {
+    "skills": [
+      {
+        "name": "",
+        "notions": "skills.levels.notions",
+        "practice": "skills.levels.practice",
+        "mastery": "skills.levels.mastery"
+      },
+      {
+        "name": "skills.technical.tools.title",
+        "notions": "skills.technical.tools.notions",
+        "practice": "skills.technical.tools.practice",
+        "mastery": "skills.technical.tools.mastery"
+      },
+      {
+        "name": "skills.technical.databases.title",
+        "notions": "skills.technical.databases.notions",
+        "practice": "skills.technical.databases.practice",
+        "mastery": "skills.technical.databases.mastery"
+      },
+      {
+        "name": "skills.technical.methodology.title",
+        "notions": "skills.technical.methodology.notions",
+        "practice": "skills.technical.methodology.practice",
+        "mastery": "skills.technical.methodology.mastery"
+      },
+      {
+        "name": "skills.technical.development.title",
+        "notions": "skills.technical.development.notions",
+        "practice": "skills.technical.development.practice",
+        "mastery": "skills.technical.development.mastery"
+      }
+    ]
+  }
+}

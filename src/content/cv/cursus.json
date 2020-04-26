@@ -1,0 +1,69 @@
+{
+  "title": "cursus.title",
+  "content": {
+    "experience": [
+      {
+        "title": "cursus.content.0.title",
+        "time": "cursus.content.0.time",
+        "place": "cursus.content.0.place",
+        "type": "work"
+      },
+      {
+        "title": "cursus.content.1.title",
+        "time": "cursus.content.1.time",
+        "place": "cursus.content.1.place",
+        "type": "school"
+      },
+      {
+        "title": "cursus.content.2.title",
+        "time": "cursus.content.2.time",
+        "place": "cursus.content.2.place",
+        "type": "school"
+      },
+      {
+        "title": "cursus.content.3.title",
+        "time": "cursus.content.3.time",
+        "place": "cursus.content.3.place",
+        "type": "school"
+      },
+      {
+        "title": "cursus.content.4.title",
+        "time": "cursus.content.4.time",
+        "place": "cursus.content.4.place",
+        "type": "work"
+      },
+      {
+        "title": "cursus.content.5.title",
+        "time": "cursus.content.5.time",
+        "place": "cursus.content.5.place",
+        "type": "work"
+      },
+      {
+        "title": "cursus.content.6.title",
+        "subtitle": "cursus.content.6.subtitle",
+        "time": "cursus.content.6.time",
+        "place": "cursus.content.6.place",
+        "type": "school"
+      },
+      {
+        "title": "cursus.content.7.title",
+        "time": "cursus.content.7.time",
+        "place": "cursus.content.7.place",
+        "type": "work"
+      },
+      {
+        "title": "cursus.content.8.title",
+        "subtitle": "cursus.content.8.subtitle",
+        "time": "cursus.content.8.time",
+        "place": "cursus.content.8.place",
+        "type": "school"
+      },
+      {
+        "title": "cursus.content.9.title",
+        "time": "cursus.content.9.time",
+        "place": "cursus.content.9.place",
+        "type": "work"
+      }
+    ]
+  }
+}
