@@ -122,5 +122,13 @@
         "place": "Sevelnord (Peugeot/Citroën) - Valenciennes"
       }
     ]
+  },
+  "languages": {
+    "title": "I speak",
+    "content": [
+      { "language": "French", "level": "Native" },
+      { "language": "English", "level": "Fluent" },
+      { "language": "Spanish", "level": "Intermediate" }
+    ]
   }
 }
