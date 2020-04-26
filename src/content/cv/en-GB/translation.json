@@ -65,5 +65,60 @@
         "mastery": "Typescript, Javascript, React, \n Angular JS, Angular, \n HTML5, SASS, LESS"
       }
     }
+  },
+  "cursus": {
+    "title": "I went through",
+    "0": {
+      "title": "Development Engineer",
+      "time": "2019 - ",
+      "place": "Extia - Lille"
+    },
+    "1": {
+      "title": "Spring official training by Pivotal",
+      "time": "2018",
+      "place": "Zenika - Paris"
+    },
+    "2": {
+      "title": "Scrum Master training",
+      "time": "2017",
+      "place": "Open - Lille"
+    },
+    "3": {
+      "title": "PCI DSS Certification by Orange Business",
+      "time": "2017",
+      "place": "Open - Lille"
+    },
+    "4": {
+      "title": "Development Engineer",
+      "time": "2015 - 2019",
+      "place": "Open - Lille"
+    },
+    "5": {
+      "title": "Software Engineer",
+      "time": "2014 - 2015",
+      "place": "Capgemini - Lille"
+    },
+    "6": {
+      "title": "C2E (Computer Engineering Expert)",
+      "subtitle": "Work-study with Efficom and Domotex as Developer Analyst",
+      "time": "2014",
+      "place": "Efficom - Lille"
+    },
+    "7": {
+      "title": "Developer Analyst",
+      "time": "2012 - 2014",
+      "place": "DOMOTEX (Textile Finishing) - Saint-André-Lez-Lille"
+    },
+    "8": {
+      "title": "Licence Professionnelle Informatique de Gestion",
+      "subtitle": "Work-study with University of Valenciennes and Sevelnord as Software Developer",
+      "time": "2012",
+      "place": "UVHC - Valenciennes"
+    },
+    "9": {
+      "title": "Software Developer",
+      "time": "2011 - 2012",
+      "place": "Sevelnord (Peugeot/Citroën) - Valenciennes"
+    }
   }
 }
