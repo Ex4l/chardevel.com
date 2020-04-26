@@ -33,6 +33,7 @@
     "@types/react-dom": "^16.9.6",
     "gatsby-plugin-root-import": "^2.0.5",
     "gatsby-plugin-tsconfig-paths": "^1.0.2",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1"
   },
   "keywords": [
@@ -42,6 +43,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
