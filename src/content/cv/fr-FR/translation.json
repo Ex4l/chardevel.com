@@ -1,4 +1,8 @@
 {
+  "global": {
+    "french": "Français",
+    "english": "Anglais"
+  },
   "me": {
     "job": "Développeur Fullstack Web",
     "phoneNumber": "06 62 71 11 60"
@@ -10,5 +14,175 @@
     "content": {
       "intro": "Vous pouvez me retrouver sur"
     }
+  },
+  "skills": {
+    "levels": {
+      "notions": "Notions",
+      "practice": "Pratique",
+      "mastery": "Maîtrise"
+    },
+    "business": {
+      "title": "J'évolue dans cet environnement",
+      "build": {
+        "title": "Build / Tactique",
+        "notions": "",
+        "practice": "Conception / Modélisation, \n Ingénierie Système, \n Architecture Applicative et Logicielle",
+        "mastery": "Programmation / Craft"
+      },
+      "agile": {
+        "title": "Agilité",
+        "notions": "Maximisation de la valeur produite (MVP, Spike), \n Gestion du backlog produit (création, maintenance, priorisation, optimisation), \n Reporting Scrum (indicateurs, management visuel)",
+        "practice": "Accompagnement des équipes (auto-organisation, prise de décision, etc.), \n Assurance du respect du cadre Scrum",
+        "mastery": "Animation des rituels Scrum (daily, sprint planning, démo, rétrospective), \n Veille méthodologique agile "
+      },
+      "quality": {
+        "title": "Qualité Logicielle",
+        "notions": "",
+        "practice": "",
+        "mastery": "Amélioration du cahier de recette, Conduite de recettes (Back-up QA)"
+      }
+    },
+    "technical": {
+      "title": "Techniquement je suis à l'aise avec",
+      "tools": {
+        "title": "Outils",
+        "notions": "",
+        "practice": "AWS S3, \n Rancher, Docker, \n Springboot, Maven \n Webpack, Node, \n Next.js, Phrase",
+        "mastery": "Jenkins, \n git, GitHub"
+      },
+      "databases": {
+        "title": "Bases de données",
+        "notions": "Maria DB",
+        "practice": "Oracle SQL",
+        "mastery": "MySQL, PostgreSQL"
+      },
+      "methodology": {
+        "title": "Méthodologies",
+        "notions": "",
+        "practice": "Kanban, Lean",
+        "mastery": "Agile, SCRUM"
+      },
+      "development": {
+        "title": "Programmation",
+        "notions": "Python",
+        "practice": "Java, \n Bash",
+        "mastery": "Typescript, Javascript, React, \n Angular JS, Angular, \n HTML5, SASS, LESS"
+      }
+    }
+  },
+  "cursus": {
+    "title": "Je suis passé par ici",
+    "content": [
+      {
+        "title": "Ingénieur Études et Développement",
+        "time": "2019 - ",
+        "place": "Extia - Lille"
+      },
+      {
+        "title": "Formation Spring Officielle by Pivotal",
+        "time": "2018",
+        "place": "Zenika - Paris"
+      },
+      {
+        "title": "Formation Scrum Master",
+        "time": "2017",
+        "place": "Open - Lille"
+      },
+      {
+        "title": "Certification PCI DSS by Orange Business",
+        "time": "2017",
+        "place": "Open - Lille"
+      },
+      {
+        "title": "Ingénieur Études et Développement",
+        "time": "2015 - 2019",
+        "place": "Open - Lille"
+      },
+      {
+        "title": "Ingénieur Logiciel",
+        "time": "2014 - 2015",
+        "place": "Capgemini - Lille"
+      },
+      {
+        "title": "E2I (Expert En Ingénierie Informatique)",
+        "subtitle": "Alternance à Efficom et à Domotex en tant qu’Analyste Développeur.",
+        "time": "2014",
+        "place": "Efficom - Lille"
+      },
+      {
+        "title": "Analyste Développeur",
+        "time": "2012 - 2014",
+        "place": "DOMOTEX (Ennoblissement Textile) - Saint-André-Lez-Lille"
+      },
+      {
+        "title": "Licence Professionnelle Informatique de Gestion",
+        "subtitle": "Alternance à l’Université de Valenciennes et à Sevelnord en tant que Développeur d’applications",
+        "time": "2012",
+        "place": "UVHC - Valenciennes"
+      },
+      {
+        "title": "Développeur d'applications",
+        "time": "2011 - 2012",
+        "place": "Sevelnord (Peugeot/Citroën) - Valenciennes"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Je parle",
+    "content": [
+      { "language": "Français", "level": "Natif" },
+      { "language": "Anglais", "level": "Courant" },
+      { "language": "Espagnol", "level": "Intermédiaire" }
+    ]
+  },
+  "hobbies": {
+    "title": "J'aime particulièrement",
+    "content": [
+      {
+        "title": "La cuisine",
+        "subtitle": "D'ici ou d'ailleurs j'aime découvrir de nouvelles saveurs."
+      },
+      {
+        "title": "Le vélo",
+        "subtitle": "C'est d'ailleurs également mon moyen de transport."
+      },
+      {
+        "title": "Les concerts",
+        "subtitle": "Je ne compte plus le nombre de watts à mon actif."
+      },
+      {
+        "title": "Le dessin",
+        "subtitle": "Je peux passer des heures pour avoir \"la\" ligne parfaite."
+      },
+      {
+        "title": "La littérature",
+        "subtitle": "De Murakami à Werber en passant par K. Dick."
+      }
+    ]
+  },
+  "clients": {
+    "title": "Ils me font confiance",
+    "content": [
+      {
+        "title": "Décathlon",
+        "subtitle": "Enseigne spécialisée dans les articles de sport"
+      },
+      {
+        "title": "Société Générale",
+        "subtitle": "Pilier de l'industrie bancaire non mutualiste"
+      },
+      {
+        "title": "Boulanger",
+        "subtitle": "Distributeur spécialisé en multimédia et électroménager"
+      },
+      {
+        "title": "Caisse d'Epargne",
+        "subtitle": "Plus grande banque commerciale du groupe BPCE"
+      },
+      {
+        "title": "Leroy Merlin",
+        "subtitle": "Enseigne spécialisée dans l'amélioration de l'habitat"
+      }
+    ]
   }
 }

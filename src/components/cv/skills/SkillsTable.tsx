@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { BsStarFill } from "react-icons/bs";
 import { newline } from "src/utils/jsxUtils";
 import ISkills from "./skillsData";
@@ -11,9 +12,11 @@ const SkillsTable = ({ data: { title, content } }: IProps) => {
   const cellStyle = { textAlign: "center" as "center", fontSize: "smaller" };
   const starColor = "#FDE74C";
 
+  const { t } = useTranslation();
+
   return (
     <div>
-      <h2>{title}</h2>
+      <h2>{t(title)}</h2>
       <table>
         <tbody>
           {content.skills.map((skill, index) => {
@@ -22,39 +25,39 @@ const SkillsTable = ({ data: { title, content } }: IProps) => {
             return (
               <tr key={`${skill.name}-${index}`}>
                 <td style={cellStyle}>
-                  <h5 className="skill-table-title">{skill.name}</h5>
+                  <h5 className="skill-table-title">{t(skill.name)}</h5>
                 </td>
                 <td style={cellStyle}>
                   {firstLine ? (
                     <h5 className="skill-table-title">
-                      {newline(skill.notions)}
+                      {newline(t(skill.notions))}
                       <BsStarFill color={starColor} />
                     </h5>
                   ) : (
-                    newline(skill.notions)
+                    newline(t(skill.notions))
                   )}
                 </td>
                 <td style={cellStyle}>
                   {firstLine ? (
                     <h5 className="skill-table-title">
-                      {newline(skill.pratique)}
+                      {newline(t(skill.practice))}
                       <BsStarFill color={starColor} />
                       <BsStarFill color={starColor} />
                     </h5>
                   ) : (
-                    newline(skill.pratique)
+                    newline(t(skill.practice))
                   )}
                 </td>
                 <td style={cellStyle}>
                   {firstLine ? (
                     <h5 className="skill-table-title">
-                      {newline(skill.maitrise)}
+                      {newline(t(skill.mastery))}
                       <BsStarFill color={starColor} />
                       <BsStarFill color={starColor} />
                       <BsStarFill color={starColor} />
                     </h5>
                   ) : (
-                    newline(skill.maitrise)
+                    newline(t(skill.mastery))
                   )}
                 </td>
               </tr>

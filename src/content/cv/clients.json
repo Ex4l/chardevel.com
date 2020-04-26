@@ -1,30 +1,30 @@
 {
-  "title": "Ils me font confiance",
+  "title": "clients.title",
   "content": [
     {
       "icon": "GiKnifeFork",
-      "title": "Décathlon",
-      "subtitle": "Enseigne spécialisée dans les articles de sport"
+      "title": "clients.content.0.title",
+      "subtitle": "clients.content.0.subtitle"
     },
     {
       "icon": "GiDutchBike",
-      "title": "Société Générale",
-      "subtitle": "Pilier de l'industrie bancaire non mutualiste"
+      "title": "clients.content.1.title",
+      "subtitle": "clients.content.1.subtitle"
     },
     {
       "icon": "GiMusicalNotes",
-      "title": "Boulanger",
-      "subtitle": "Distributeur spécialisé en multimédia et électroménager"
+      "title": "clients.content.2.title",
+      "subtitle": "clients.content.2.subtitle"
     },
     {
       "icon": "GiPencilBrush",
-      "title": "Caisse d'Epargne",
-      "subtitle": "Plus grande banque commerciale du groupe BPCE"
+      "title": "clients.content.3.title",
+      "subtitle": "clients.content.3.subtitle"
     },
     {
       "icon": "GiWhiteBook",
-      "title": "Leroy Merlin",
-      "subtitle": "Enseigne spécialisée dans l'amélioration de l'habitat"
+      "title": "clients.content.4.title",
+      "subtitle": "clients.content.4.subtitle"
     }
   ]
 }

@@ -1,5 +1,6 @@
 import FlipCard from "@components/cv/FlipCard";
 import React, { FunctionComponent } from "react";
+import { useTranslation } from "react-i18next";
 import {
   GiDutchBike,
   GiKnifeFork,
@@ -13,6 +14,7 @@ interface IProps {
 }
 
 const Hobby: FunctionComponent<IProps> = ({ item }) => {
+  const { t } = useTranslation();
   const getIcon = (icon: string): React.ReactElement => {
     switch (icon) {
       case "GiKnifeFork":
@@ -31,8 +33,8 @@ const Hobby: FunctionComponent<IProps> = ({ item }) => {
   return (
     <FlipCard
       icon={getIcon(item.icon)}
-      front={<h4 className="hobby-title">{item.title}</h4>}
-      back={<h6 className="hobby-subtitle">{item.subtitle}</h6>}
+      front={<h4 className="hobby-title">{t(item.title)}</h4>}
+      back={<h6 className="hobby-subtitle">{t(item.subtitle)}</h6>}
       style={{
         width: "160px",
         height: "160px",

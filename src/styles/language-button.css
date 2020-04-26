@@ -1,0 +1,11 @@
+.language-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.45rem;
+}
+
+.language-button {
+  color: #ffffff !important;
+  margin: 8px !important;
+  border-color: white !important;
+}

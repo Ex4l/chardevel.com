@@ -1,67 +1,67 @@
 {
-  "title": "Je suis passé par ici",
+  "title": "cursus.title",
   "content": {
     "experience": [
       {
-        "title": "Ingénieur Études et Développement",
-        "time": "2019 - ",
-        "place": "Extia - Lille",
+        "title": "cursus.content.0.title",
+        "time": "cursus.content.0.time",
+        "place": "cursus.content.0.place",
         "type": "work"
       },
       {
-        "title": "Formation Spring Officielle by Pivotal",
-        "time": "2018",
-        "place": "Zenika - Paris",
+        "title": "cursus.content.1.title",
+        "time": "cursus.content.1.time",
+        "place": "cursus.content.1.place",
         "type": "school"
       },
       {
-        "title": "Formation Scrum Master",
-        "time": "2017",
-        "place": "Open - Lille",
+        "title": "cursus.content.2.title",
+        "time": "cursus.content.2.time",
+        "place": "cursus.content.2.place",
         "type": "school"
       },
       {
-        "title": "Certification PCI DSS by Orange Business",
-        "time": "2017",
-        "place": "Open - Lille",
+        "title": "cursus.content.3.title",
+        "time": "cursus.content.3.time",
+        "place": "cursus.content.3.place",
         "type": "school"
       },
       {
-        "title": "Ingénieur Études et Développement",
-        "time": "2015 - 2019",
-        "place": "Open - Lille",
+        "title": "cursus.content.4.title",
+        "time": "cursus.content.4.time",
+        "place": "cursus.content.4.place",
         "type": "work"
       },
       {
-        "title": "Ingénieur Logiciel",
-        "time": "2014 - 2015",
-        "place": "Capgemini - Lille",
+        "title": "cursus.content.5.title",
+        "time": "cursus.content.5.time",
+        "place": "cursus.content.5.place",
         "type": "work"
       },
       {
-        "title": "E2I2 (Expert En Ingénierie Informatique)",
-        "subtitle": "Alternance à Efficom et à Domotex en tant qu’Analyste Développeur.",
-        "time": "2014",
-        "place": "Efficom - Lille",
+        "title": "cursus.content.6.title",
+        "subtitle": "cursus.content.6.subtitle",
+        "time": "cursus.content.6.time",
+        "place": "cursus.content.6.place",
         "type": "school"
       },
       {
-        "title": "Analyste Développeur",
-        "time": "2012 - 2014",
-        "place": "DOMOTEX (Ennoblissement Textile) - Saint-André-Lez-Lille",
+        "title": "cursus.content.7.title",
+        "time": "cursus.content.7.time",
+        "place": "cursus.content.7.place",
         "type": "work"
       },
       {
-        "title": "Licence Professionnelle Informatique de Gestion",
-        "subtitle": "Alternance à l’Université de Valenciennes et à Sevelnord en tant que Développeur d’applications",
-        "time": "2012",
-        "place": "UVHC - Valenciennes",
+        "title": "cursus.content.8.title",
+        "subtitle": "cursus.content.8.subtitle",
+        "time": "cursus.content.8.time",
+        "place": "cursus.content.8.place",
         "type": "school"
       },
       {
-        "title": "Développeur d'applications",
-        "time": "2011 - 2012",
-        "place": "Sevelnord (Usine Peugeot/Citroën) - Valenciennes",
+        "title": "cursus.content.9.title",
+        "time": "cursus.content.9.time",
+        "place": "cursus.content.9.place",
         "type": "work"
       }
     ]

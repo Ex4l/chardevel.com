@@ -1,4 +1,8 @@
 {
+  "global": {
+    "french": "French",
+    "english": "English"
+  },
   "me": {
     "job": "Fullstack Web Developer",
     "phoneNumber": "+33 6 62 71 11 60"
@@ -10,5 +14,175 @@
     "content": {
       "intro": "You can find me on"
     }
+  },
+  "skills": {
+    "levels": {
+      "notions": "Notions",
+      "practice": "Practice",
+      "mastery": "Mastery"
+    },
+    "business": {
+      "title": "I evolve in this environment",
+      "build": {
+        "title": "Build / Tactical",
+        "notions": "",
+        "practice": "Design / Modeling, \n System engineering, \n Application / Software Architecture",
+        "mastery": "Development / Craft"
+      },
+      "agile": {
+        "title": "Agile",
+        "notions": "Maximization of the value produced (MVP, Spike), \n Product backlog management (creation, maintenance, prioritization, optimization), \n SCRUM Reporting (KPIS, visual management)",
+        "practice": "Support for teams (self-organization, decision-making, etc.), \n Assurance of compliance with the Scrum framework",
+        "mastery": "Animation of Scrum rituals (daily, sprint planning, demo, retrospective), \n Agile methodological watch"
+      },
+      "quality": {
+        "title": "Software Quality",
+        "notions": "",
+        "practice": "Improvement of the recipe book, Recipe management (QA Back-up)",
+        "mastery": "TDD, BDD, 3 Amigos"
+      }
+    },
+    "technical": {
+      "title": "Technically i'm comfortable with",
+      "tools": {
+        "title": "Tools",
+        "notions": "",
+        "practice": "AWS S3, \n Rancher, Docker, \n Springboot, Maven \n Webpack, Node, \n Next.js, Phrase",
+        "mastery": "Jenkins, \n git, GitHub"
+      },
+      "databases": {
+        "title": "Databases",
+        "notions": "Maria DB",
+        "practice": "Oracle SQL",
+        "mastery": "MySQL, PostgreSQL"
+      },
+      "methodology": {
+        "title": "Methodologies",
+        "notions": "",
+        "practice": "Kanban, Lean",
+        "mastery": "Agile, SCRUM"
+      },
+      "development": {
+        "title": "Development",
+        "notions": "Python",
+        "practice": "Java, \n Bash",
+        "mastery": "Typescript, Javascript, React, \n Angular JS, Angular, \n HTML5, SASS, LESS"
+      }
+    }
+  },
+  "cursus": {
+    "title": "I went through",
+    "content": [
+      {
+        "title": "Development Engineer",
+        "time": "2019 - ",
+        "place": "Extia - Lille"
+      },
+      {
+        "title": "Spring official training by Pivotal",
+        "time": "2018",
+        "place": "Zenika - Paris"
+      },
+      {
+        "title": "Scrum Master training",
+        "time": "2017",
+        "place": "Open - Lille"
+      },
+      {
+        "title": "PCI DSS Certification by Orange Business",
+        "time": "2017",
+        "place": "Open - Lille"
+      },
+      {
+        "title": "Development Engineer",
+        "time": "2015 - 2019",
+        "place": "Open - Lille"
+      },
+      {
+        "title": "Software Engineer",
+        "time": "2014 - 2015",
+        "place": "Capgemini - Lille"
+      },
+      {
+        "title": "C2E (Computer Engineering Expert)",
+        "subtitle": "Work-study with Efficom and Domotex as Developer Analyst",
+        "time": "2014",
+        "place": "Efficom - Lille"
+      },
+      {
+        "title": "Developer Analyst",
+        "time": "2012 - 2014",
+        "place": "DOMOTEX (Textile Finishing) - Saint-André-Lez-Lille"
+      },
+      {
+        "title": "Professional License in Management Information Technology",
+        "subtitle": "Work-study with University of Valenciennes and Sevelnord as Software Developer",
+        "time": "2012",
+        "place": "UVHC - Valenciennes"
+      },
+      {
+        "title": "Software Developer",
+        "time": "2011 - 2012",
+        "place": "Sevelnord (Peugeot/Citroën) - Valenciennes"
+      }
+    ]
+  },
+  "languages": {
+    "title": "I speak",
+    "content": [
+      { "language": "French", "level": "Native" },
+      { "language": "English", "level": "Fluent" },
+      { "language": "Spanish", "level": "Intermediate" }
+    ]
+  },
+  "hobbies": {
+    "title": "I particularly like",
+    "content": [
+      {
+        "title": "Cooking",
+        "subtitle": "From here or elsewhere I like to discover new flavors"
+      },
+      {
+        "title": "Biking",
+        "subtitle": "It's also my means of transport"
+      },
+      {
+        "title": "Going on concerts",
+        "subtitle": "I can't count the number of watts anymore"
+      },
+      {
+        "title": "Drawing",
+        "subtitle": "I can spend hours to get \"the\" perfect line"
+      },
+      {
+        "title": "Reading",
+        "subtitle": "From Murakami to Werber passing by K. Dick"
+      }
+    ]
+  },
+  "clients": {
+    "title": "They trust me",
+    "content": [
+      {
+        "title": "Décathlon",
+        "subtitle": "Global sporting goods retail store chain"
+      },
+      {
+        "title": "Société Générale",
+        "subtitle": "Multinational investment bank company"
+      },
+      {
+        "title": "Boulanger",
+        "subtitle": "Distributor specialized in multimedia and household appliances"
+      },
+      {
+        "title": "Caisse d'Epargne",
+        "subtitle": "Semi-cooperative banking group"
+      },
+      {
+        "title": "Leroy Merlin",
+        "subtitle": "Home improvement and gardening retailer "
+      }
+    ]
   }
 }
