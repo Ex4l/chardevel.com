@@ -1,4 +1,8 @@
 {
+  "global": {
+    "french": "Français",
+    "english": "Anglais"
+  },
   "me": {
     "job": "Développeur Fullstack Web",
     "phoneNumber": "06 62 71 11 60"

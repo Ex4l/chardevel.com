@@ -1,3 +1,4 @@
+import LanguageButton from "@components/LanguageButton";
 import React, { FunctionComponent } from "react";
 import "src/styles/header.css";
 import Me from "./cv/Me";
@@ -21,6 +22,8 @@ const Header: FunctionComponent<HeaderProps> = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
+      <LanguageButton />
+
       <h1 style={{ margin: 0 }}>
         <Me />
       </h1>

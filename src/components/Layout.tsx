@@ -8,8 +8,8 @@
 import { graphql, useStaticQuery } from "gatsby";
 import PropTypes from "prop-types";
 import React, { FunctionComponent } from "react";
+import "src/styles/layout.css";
 import Header from "./Header";
-import "./layout.css";
 
 const Layout: FunctionComponent = ({ children }) => {
   const data = useStaticQuery(graphql`
