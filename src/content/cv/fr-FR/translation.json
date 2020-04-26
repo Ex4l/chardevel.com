@@ -9,6 +9,61 @@
   "github": {
     "content": {
       "intro": "Vous pouvez me retrouver sur"
+    },
+    "skills": {
+      "levels": {
+        "notions": "Notions",
+        "practice": "Pratique",
+        "mastery": "Maîtrise"
+      },
+      "business": {
+        "title": "J'évolue dans cet environnement",
+        "build": {
+          "title": "Build / Tactique",
+          "notions": "",
+          "practice": "Conception / Modélisation, \n Ingénierie Système, \n Architecture Applicative et Logicielle",
+          "mastery": "Programmation / Craft"
+        },
+        "agile": {
+          "title": "Agilité",
+          "notions": "Maximisation de la valeur produite (MVP, Spike), \n Gestion du backlog produit (création, maintenance, priorisation, optimisation), \n Reporting Scrum (indicateurs, management visuel)",
+          "practice": "Accompagnement des équipes (auto-organisation, prise de décision, etc.), \n Assurance du respect du cadre Scrum",
+          "mastery": "Animation des rituels Scrum (daily, sprint planning, démo, rétrospective), \n Veille méthodologique agile "
+        },
+        "quality": {
+          "title": "Qualité Logicielle",
+          "notions": "",
+          "practice": "",
+          "mastery": "Amélioration du cahier de recette, Conduite de recettes (Back-up QA)"
+        }
+      },
+      "technical": {
+        "title": "Techniquement je suis à l'aise avec",
+        "tools": {
+          "title": "Outils",
+          "notions": "",
+          "practice": "AWS S3, \n Rancher, Docker, \n Springboot, Maven \n Webpack, Node, \n Next.js, Phrase",
+          "mastery": "Jenkins, \n git, GitHub"
+        },
+        "databases": {
+          "title": "Bases de données",
+          "notions": "Maria DB",
+          "practice": "Oracle SQL",
+          "mastery": "MySQL, PostgreSQL"
+        },
+        "methodology": {
+          "title": "Méthodologies",
+          "notions": "",
+          "practice": "Kanban, Lean",
+          "mastery": "Agile, SCRUM"
+        },
+        "development": {
+          "title": "Programmation",
+          "notions": "Python",
+          "practice": "Java, \n Bash",
+          "mastery": "Typescript, Javascript, React, \n Angular JS, Angular, \n HTML5, SASS, LESS"
+        }
+      }
     }
   }
 }

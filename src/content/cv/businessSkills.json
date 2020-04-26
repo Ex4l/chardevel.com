@@ -1,30 +1,30 @@
 {
-  "title": "J'évolue dans cet environnement",
+  "title": "skills.business.title",
   "content": {
     "skills": [
       {
         "name": "",
-        "notions": "Notions",
-        "pratique": "Pratique",
-        "maitrise": "Maîtrise"
+        "notions": "skills.levels.notions",
+        "practice": "skills.levels.practice",
+        "mastery": "skills.levels.mastery"
       },
       {
-        "name": "Build / Tactique",
-        "notions": "",
-        "pratique": "Conception / Modélisation, \n Ingénierie Système / Outils, \n Architecture Applicative et Logicielle",
-        "maitrise": "Programmation / Craft"
+        "name": "skills.business.build.title",
+        "notions": "skills.business.build.notions",
+        "practice": "skills.business.build.practice",
+        "mastery": "skills.business.build.mastery"
       },
       {
-        "name": "Agilité",
-        "notions": "Maximisation de la valeur produite (MVP, Spike), \n Gestion du backlog produit (création, maintenance, priorisation), \n Reporting Scrum (indicateurs, management visuel)",
-        "pratique": "Accompagnement des équipes (auto-organisation, prise de décision, etc.), \n Assurance du respect du cadre Scrum",
-        "maitrise": "Animation des rituels Scrum (daily, sprint planning, démo, rétrospective), \n Veille méthodologique agile "
+        "name": "skills.business.agile.title",
+        "notions": "skills.business.agile.notions",
+        "practice": "skills.business.agile.practice",
+        "mastery": "skills.business.agile.mastery"
       },
       {
-        "name": "Qualité Logicielle",
-        "notions": "",
-        "pratique": "",
-        "maitrise": "Amélioration du cahier de recette, Conduite de recettes (Back-up QA)"
+        "name": "skills.business.quality.title",
+        "notions": "skills.business.quality.notions",
+        "practice": "skills.business.quality.practice",
+        "mastery": "skills.business.quality.mastery"
       }
     ]
   }

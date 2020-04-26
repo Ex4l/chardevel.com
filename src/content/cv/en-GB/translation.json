@@ -10,5 +10,60 @@
     "content": {
       "intro": "You can find me on"
     }
+  },
+  "skills": {
+    "levels": {
+      "notions": "Notions",
+      "practice": "Practice",
+      "mastery": "Mastery"
+    },
+    "business": {
+      "title": "I evolve in this environment",
+      "build": {
+        "title": "Build / Tactical",
+        "notions": "",
+        "practice": "Design / Modeling, \n System engineering, \n Application / Software Architecture",
+        "mastery": "Development / Craft"
+      },
+      "agile": {
+        "title": "Agile",
+        "notions": "Maximization of the value produced (MVP, Spike), \n Product backlog management (creation, maintenance, prioritization, optimization), \n SCRUM Reporting (KPIS, visual management)",
+        "practice": "Support for teams (self-organization, decision-making, etc.), \n Assurance of compliance with the Scrum framework",
+        "mastery": "Animation of Scrum rituals (daily, sprint planning, demo, retrospective), \n Agile methodological watch"
+      },
+      "quality": {
+        "title": "Software Quality",
+        "notions": "",
+        "practice": "Improvement of the recipe book, Recipe management (QA Back-up)",
+        "mastery": "TDD, BDD, 3 Amigos"
+      }
+    },
+    "technical": {
+      "title": "Technically i'm comfortable with",
+      "tools": {
+        "title": "Tools",
+        "notions": "",
+        "practice": "AWS S3, \n Rancher, Docker, \n Springboot, Maven \n Webpack, Node, \n Next.js, Phrase",
+        "mastery": "Jenkins, \n git, GitHub"
+      },
+      "databases": {
+        "title": "Databases",
+        "notions": "Maria DB",
+        "practice": "Oracle SQL",
+        "mastery": "MySQL, PostgreSQL"
+      },
+      "methodology": {
+        "title": "Methodologies",
+        "notions": "",
+        "practice": "Kanban, Lean",
+        "mastery": "Agile, SCRUM"
+      },
+      "development": {
+        "title": "Development",
+        "notions": "Python",
+        "practice": "Java, \n Bash",
+        "mastery": "Typescript, Javascript, React, \n Angular JS, Angular, \n HTML5, SASS, LESS"
+      }
+    }
   }
 }
