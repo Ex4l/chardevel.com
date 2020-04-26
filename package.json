@@ -43,7 +43,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && npm run cname && gh-pages -d public",
     "cname": "node src/scripts/create-cname.js",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
