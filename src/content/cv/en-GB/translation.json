@@ -155,5 +155,30 @@
         "subtitle": "From Murakami to Werber passing by K. Dick"
       }
     ]
+  },
+  "clients": {
+    "title": "They trust me",
+    "content": [
+      {
+        "title": "Décathlon",
+        "subtitle": "Global sporting goods retail store chain"
+      },
+      {
+        "title": "Société Générale",
+        "subtitle": "Multinational investment bank company"
+      },
+      {
+        "title": "Boulanger",
+        "subtitle": "Distributor specialized in multimedia and household appliances"
+      },
+      {
+        "title": "Caisse d'Epargne",
+        "subtitle": "Semi-cooperative banking group"
+      },
+      {
+        "title": "Leroy Merlin",
+        "subtitle": "Home improvement and gardening retailer "
+      }
+    ]
   }
 }

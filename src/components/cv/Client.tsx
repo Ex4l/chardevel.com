@@ -1,5 +1,6 @@
 import FlipCard from "@components/cv/FlipCard";
 import React, { FunctionComponent } from "react";
+import { useTranslation } from "react-i18next";
 import BoulangerLogo from "src/images/boulanger-logo.png";
 import CeLogo from "src/images/ce-logo.png";
 import DecathlonLogo from "src/images/dkt-logo.jpg";
@@ -11,7 +12,9 @@ interface IProps {
 }
 
 const Client: FunctionComponent<IProps> = ({ item }) => {
-  const getIcon = (logo: string): React.ReactElement => {
+  const { t } = useTranslation();
+
+  const getBrandLogo = (logo: string): React.ReactElement => {
     switch (logo) {
       case "Décathlon":
         return (
@@ -65,19 +68,19 @@ const Client: FunctionComponent<IProps> = ({ item }) => {
 
   return (
     <FlipCard
-      icon={getIcon(item.title)}
+      icon={getBrandLogo(t(item.title))}
       back={
         <div>
-          <h4 className="client-title">{item.title}</h4>
+          <h4 className="client-title">{t(item.title)}</h4>
           <br />
-          <h6 className="client-subtitle">{item.subtitle}</h6>
+          <h6 className="client-subtitle">{t(item.subtitle)}</h6>
         </div>
       }
       style={{
         width: "160px",
         height: "160px",
         frontBackgroundColor: "white",
-        backBackgroundColor: getBackgroundColor(item.title),
+        backBackgroundColor: getBackgroundColor(t(item.title)),
       }}
     />
   );
