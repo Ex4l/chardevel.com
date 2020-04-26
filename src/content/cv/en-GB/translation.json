@@ -111,7 +111,7 @@
         "place": "DOMOTEX (Textile Finishing) - Saint-André-Lez-Lille"
       },
       {
-        "title": "Licence Professionnelle Informatique de Gestion",
+        "title": "Professional License in Management Information Technology",
         "subtitle": "Work-study with University of Valenciennes and Sevelnord as Software Developer",
         "time": "2012",
         "place": "UVHC - Valenciennes"
@@ -129,6 +129,31 @@
       { "language": "French", "level": "Native" },
       { "language": "English", "level": "Fluent" },
       { "language": "Spanish", "level": "Intermediate" }
+    ]
+  },
+  "hobbies": {
+    "title": "I particularly like",
+    "content": [
+      {
+        "title": "Cooking",
+        "subtitle": "From here or elsewhere I like to discover new flavors"
+      },
+      {
+        "title": "Biking",
+        "subtitle": "It's also my means of transport"
+      },
+      {
+        "title": "Going on concerts",
+        "subtitle": "I can't count the number of watts anymore"
+      },
+      {
+        "title": "Drawing",
+        "subtitle": "I can spend hours to get \"the\" perfect line"
+      },
+      {
+        "title": "Reading",
+        "subtitle": "From Murakami to Werber passing by K. Dick"
+      }
     ]
   }
 }
