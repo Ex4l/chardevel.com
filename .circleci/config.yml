@@ -21,13 +21,14 @@ jobs:
           steps:
             - run: git config user.email "chardevel.a@gmail.com"
             - run: git config user.name "CHARDEVEL Axel"
-            - run: npm install
             - run: npm run deploy
 workflows:
   build-and-deploy:
     jobs:
       - build
       - deploy:
-        filters:
-          branches:
-            only: master
+        requires:
+          - build
+          filters:
+            branches:
+              only: master

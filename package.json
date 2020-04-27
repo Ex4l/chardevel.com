@@ -41,9 +41,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && npm run cname",
     "develop": "gatsby develop",
-    "deploy": "gatsby build && npm run cname && gh-pages -d public",
+    "deploy": "gh-pages -d public",
     "cname": "node src/scripts/create-cname.js",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
