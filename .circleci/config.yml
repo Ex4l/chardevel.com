@@ -21,7 +21,7 @@ jobs:
           steps:
             - run: git config user.email "chardevel.a@gmail.com"
             - run: git config user.name "CHARDEVEL Axel"
-            - run: npm run deploy
+            - run: npm run cname && npm run deploy
 workflows:
   build-and-deploy:
     jobs:
