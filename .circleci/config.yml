@@ -1,0 +1,24 @@
+version: 2.1
+orbs:
+  node: circleci/node@1.1.6
+jobs:
+  build-and-deploy:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - add_ssh_keys
+      - node/with-cache:
+          steps:
+            - run: git config user.email "chardevel.a@gmail.com"
+            - run: git config user.name "CHARDEVEL Axel"
+            - run: npm install
+            - run: npm run deploy
+workflows:
+  build-and-deploy:
+    jobs:
+      - build-and-deploy:
+        filters:
+          branches:
+            only:
+              - master
