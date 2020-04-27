@@ -2,7 +2,16 @@ version: 2.1
 orbs:
   node: circleci/node@1.1.6
 jobs:
-  build-and-deploy:
+  build:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - run: npm install
+            - run: npm run build
+  deploy:
     executor:
       name: node/default
     steps:
@@ -12,13 +21,14 @@ jobs:
           steps:
             - run: git config user.email "chardevel.a@gmail.com"
             - run: git config user.name "CHARDEVEL Axel"
-            - run: npm install
-            - run: npm run deploy
+            - run: npm run cname && npm run deploy
 workflows:
   build-and-deploy:
     jobs:
-      - build-and-deploy:
-        filters:
-          branches:
-            only:
-              - master
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
