@@ -19,16 +19,19 @@ jobs:
       - add_ssh_keys
       - node/with-cache:
           steps:
+            - run: npm install
+            - run: npm run build
             - run: git config user.email "chardevel.a@gmail.com"
             - run: git config user.name "CHARDEVEL Axel"
             - run: npm run cname && npm run deploy
 workflows:
   build-and-deploy:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              ignore: master
       - deploy:
-          requires:
-            - build
           filters:
             branches:
               only: master
