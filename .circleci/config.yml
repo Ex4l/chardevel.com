@@ -6,12 +6,12 @@ jobs:
     executor:
       name: node/default
     steps:
+      - add_ssh_keys:
+        fingerprints:
+          - "3e:f2:5e:9b:d1:7b:6e:49:b5:53:b4:72:a4:cb:fb:51"
       - checkout
       - node/with-cache:
           steps:
-            - add_ssh_keys:
-              fingerprints:
-                - "3e:f2:5e:9b:d1:7b:6e:49:b5:53:b4:72:a4:cb:fb:51"
             - run: git config user.email "chardevel.a@gmail.com"
             - run: git config user.name "CHARDEVEL Axel"
             - run: npm install
