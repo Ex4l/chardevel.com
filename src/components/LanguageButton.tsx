@@ -1,3 +1,4 @@
+import events from "@components/service/analytics/events";
 import Button from "@material-ui/core/Button";
 import { EN, FR } from "@utils/constants";
 import React from "react";
@@ -7,7 +8,9 @@ import "src/styles/language-button.css";
 const LanguageButton = () => {
   const { t } = useTranslation();
   const setLanguage = (lang: string) => {
-    getI18n().changeLanguage(lang);
+    getI18n().changeLanguage(lang, () => {
+      events.cv.change_language(lang);
+    });
   };
 
   return getI18n().isInitialized ? (

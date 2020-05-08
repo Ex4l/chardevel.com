@@ -1,6 +1,7 @@
 import MeData from "@content/cv/me.json";
 import React from "react";
 import { useTranslation } from "react-i18next";
+import events from "../service/analytics/events";
 
 const Me = () => {
   const { t } = useTranslation();
@@ -14,7 +15,14 @@ const Me = () => {
       </h1>
       <h2>{t(MeData.content.phoneNumber)}</h2>
       <h2>
-        <a href={`mailto:${mail}`}>{mail}</a>
+        <a
+          href={`mailto:${mail}`}
+          onClick={() => {
+            events.cv.click_to_contact();
+          }}
+        >
+          {mail}
+        </a>
       </h2>
     </div>
   );
