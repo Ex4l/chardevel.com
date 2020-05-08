@@ -23,6 +23,7 @@ jobs:
           steps:
             - run: |
                 export SENTRY_DSN=$SENTRY_DSN
+                export GA_TRACKING_ID=$GA_TRACKING_ID
                 npm install
             - run: |
                 git config user.email "chardevel.a@gmail.com"

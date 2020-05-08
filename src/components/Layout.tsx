@@ -6,6 +6,7 @@
  */
 
 import ErrorWrapper from "@/utils/ErrorWrapper";
+import AnalyticsLoader from "@components/service/analytics/AnalyticsLoader";
 import { graphql, useStaticQuery } from "gatsby";
 import PropTypes from "prop-types";
 import React, { FunctionComponent } from "react";
@@ -33,6 +34,11 @@ const Layout: FunctionComponent = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
+        <AnalyticsLoader
+          trackingId={process.env.GA_TRACKING_ID || ""}
+          isDebug={process.env.DEBUG || ""}
+          disabled={process.env.NODE_ENV !== "production"}
+        />
         <main>{children}</main>
         <footer></footer>
       </div>
