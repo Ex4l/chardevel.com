@@ -9,8 +9,9 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
-            - run: npm install
-            - run: npm run build
+            - run: |
+                npm install
+                npm run build
   deploy:
     executor:
       name: node/default
@@ -19,11 +20,13 @@ jobs:
       - add_ssh_keys
       - node/with-cache:
           steps:
-            - run: npm install
-            - run: npm run build
-            - run: git config user.email "chardevel.a@gmail.com"
-            - run: git config user.name "CHARDEVEL Axel"
-            - run: npm run cname && npm run deploy
+            - run: |
+                export SENTRY_DSN=$SENTRY_DSN
+                npm install
+                npm run build
+                git config user.email "chardevel.a@gmail.com"
+                git config user.name "CHARDEVEL Axel"
+                npm run cname && npm run deploy
 workflows:
   build-and-deploy:
     jobs:
