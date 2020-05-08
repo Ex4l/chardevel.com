@@ -26,13 +26,6 @@ const Layout: FunctionComponent = ({ children }) => {
   return (
     <ErrorWrapper>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <button
-        onClick={() => {
-          throw new Error("oups");
-        }}
-      >
-        Break the world
-      </button>
       <div
         style={{
           margin: `0 auto`,
