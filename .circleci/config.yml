@@ -11,6 +11,7 @@ jobs:
           steps:
             - run: |
                 npm install
+            - run: |
                 npm run build
   deploy:
     executor:
@@ -23,10 +24,14 @@ jobs:
             - run: |
                 export SENTRY_DSN=$SENTRY_DSN
                 npm install
-                npm run build
+            - run: |
                 git config user.email "chardevel.a@gmail.com"
                 git config user.name "CHARDEVEL Axel"
-                npm run cname && npm run deploy
+            - run: |
+                npm run build
+            - run: |
+                npm run cname
+                npm run deploy
 workflows:
   build-and-deploy:
     jobs:
