@@ -1,4 +1,5 @@
 import cursusData from "@content/cv/cursus.json";
+import { today } from "@utils/dateUtils";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { MdSchool, MdWork } from "react-icons/md";
@@ -8,7 +9,6 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "src/styles/cursus.css";
-import { today } from "src/utils/dateUtils";
 
 const Cursus = () => {
   const { t } = useTranslation();

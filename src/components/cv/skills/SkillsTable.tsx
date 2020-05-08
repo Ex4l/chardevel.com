@@ -1,7 +1,7 @@
+import { newline } from "@utils/jsxUtils";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { BsStarFill } from "react-icons/bs";
-import { newline } from "src/utils/jsxUtils";
 import ISkills from "./skillsData";
 
 interface IProps {
