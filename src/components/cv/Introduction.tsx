@@ -1,8 +1,8 @@
 import { today } from "@/utils/dateUtils";
 import introductionData from "@content/cv/introduction.json";
+import { newline } from "@utils/jsxUtils";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { newline } from "src/utils/jsxUtils";
 
 const getAge = (): string => {
   var firstYear = new Date(2011, 1, 1);

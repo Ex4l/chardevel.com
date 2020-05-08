@@ -8,7 +8,7 @@ import Languages from "./cv/Languages";
 import Skills from "./cv/skills/Skills";
 
 const Home = () => (
-  <div>
+  <>
     <Introduction />
     <GithubCard />
     <Skills />
@@ -16,7 +16,7 @@ const Home = () => (
     <Languages />
     <Hobbies />
     <Clients />
-  </div>
+  </>
 );
 
 export default Home;

@@ -1,8 +1,8 @@
 import Button from "@material-ui/core/Button";
+import { EN, FR } from "@utils/constants";
 import React from "react";
 import { getI18n, useTranslation } from "react-i18next";
 import "src/styles/language-button.css";
-import { EN, FR } from "src/utils/constants";
 
 const LanguageButton = () => {
   const { t } = useTranslation();

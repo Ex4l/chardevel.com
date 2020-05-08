@@ -5,6 +5,7 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
+import ErrorWrapper from "@/utils/ErrorWrapper";
 import { graphql, useStaticQuery } from "gatsby";
 import PropTypes from "prop-types";
 import React, { FunctionComponent } from "react";
@@ -23,8 +24,15 @@ const Layout: FunctionComponent = ({ children }) => {
   `);
 
   return (
-    <>
+    <ErrorWrapper>
       <Header siteTitle={data.site.siteMetadata.title} />
+      <button
+        onClick={() => {
+          throw new Error("oups");
+        }}
+      >
+        Break the world
+      </button>
       <div
         style={{
           margin: `0 auto`,
@@ -35,7 +43,7 @@ const Layout: FunctionComponent = ({ children }) => {
         <main>{children}</main>
         <footer></footer>
       </div>
-    </>
+    </ErrorWrapper>
   );
 };
 
