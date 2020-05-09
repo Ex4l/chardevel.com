@@ -27,7 +27,7 @@ const errorHandler = (error: Error, componentStack: string) => {
 
 const ErrorWrapper: React.FunctionComponent<{}> = props => {
   Sentry.init({
-    dsn: process.env.GATSBY_SENTRY_DSN,
+    dsn: process.env.SENTRY_DSN,
     environment: process.env.NODE_ENV,
   });
 
