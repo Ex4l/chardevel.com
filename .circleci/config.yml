@@ -9,6 +9,12 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
+            - run:
+                name: Create .env.production file with secrets
+                command: |
+                  echo "SENTRY_DSN=$SENTRY_DSN" >> .env.production
+                  echo "GA_TRACKING_ID=$GA_TRACKING_ID" >> .env.production
+                  cat .env.production
             - run: |
                 npm install
             - run: |
@@ -24,13 +30,15 @@ jobs:
             - run:
                 name: Create .env.production file with secrets
                 command: |
-                  echo "export SENTRY_DSN=$SENTRY_DSN" >> env.production
-                  echo "export GA_TRACKING_ID=$GA_TRACKING_ID" >> env.production
+                  echo "SENTRY_DSN=$SENTRY_DSN" >> .env.production
+                  echo "GA_TRACKING_ID=$GA_TRACKING_ID" >> .env.production
+            - run:
+                name: Git configuration
+                command: |
+                  git config user.email "chardevel.a@gmail.com"
+                  git config user.name "CHARDEVEL Axel"
             - run: |
                 npm install
-            - run: |
-                git config user.email "chardevel.a@gmail.com"
-                git config user.name "CHARDEVEL Axel"
             - run: |
                 npm run build
             - run: |
