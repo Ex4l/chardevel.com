@@ -34,7 +34,7 @@ jobs:
                   echo "SENTRY_DSN=$SENTRY_DSN"
                   echo "SENTRY_DSN=$SENTRY_DSN" >> env.production
                   echo "GA_TRACKING_ID=$GA_TRACKING_ID" >> env.production
-                  ls
+                  cat env.production
             - run:
                 name: Git configuration
                 command: |
