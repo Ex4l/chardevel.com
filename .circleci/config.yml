@@ -24,8 +24,8 @@ jobs:
             - run:
                 name: Create .env.production file with secrets
                 command: |
-                echo "export SENTRY_DSN=$SENTRY_DSN" >> env.production
-                echo "export GA_TRACKING_ID=$GA_TRACKING_ID" >> env.production
+                  echo "export SENTRY_DSN=$SENTRY_DSN" >> env.production
+                  echo "export GA_TRACKING_ID=$GA_TRACKING_ID" >> env.production
             - run: |
                 npm install
             - run: |
