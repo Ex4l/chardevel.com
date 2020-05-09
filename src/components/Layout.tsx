@@ -35,9 +35,9 @@ const Layout: FunctionComponent = ({ children }) => {
         }}
       >
         <AnalyticsLoader
-          trackingId={process.env.GATSBY_GA_TRACKING_ID || ""}
-          isDebug={process.env.GATSBY_DEBUG || ""}
-          disabled={process.env.GATSBY_NODE_ENV !== "production"}
+          trackingId={process.env.GA_TRACKING_ID || ""}
+          isDebug={process.env.DEBUG || ""}
+          disabled={process.env.NODE_ENV !== "production"}
         />
         <main>{children}</main>
         <footer></footer>

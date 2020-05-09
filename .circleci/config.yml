@@ -22,8 +22,11 @@ jobs:
       - node/with-cache:
           steps:
             - run: |
-                export GATSBY_SENTRY_DSN=$SENTRY_DSN
-                export GATSBY_GA_TRACKING_ID=$GA_TRACKING_ID
+                """cat <<EOT >> env.production
+                    SENTRY_DSN=$SENTRY_DSN
+                    GA_TRACKING_ID=$GA_TRACKING_ID
+                EOT"""
+            - run: |
                 npm install
             - run: |
                 git config user.email "chardevel.a@gmail.com"
