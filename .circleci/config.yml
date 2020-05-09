@@ -35,7 +35,7 @@ jobs:
                   echo "SENTRY_DSN=$SENTRY_DSN" >> env.production
                   echo "GA_TRACKING_ID=$GA_TRACKING_ID" >> env.production
                   ls
-              - run:
+            - run:
                 name: Git configuration
                 command: |
                   git config user.email "chardevel.a@gmail.com"
