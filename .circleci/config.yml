@@ -21,11 +21,11 @@ jobs:
       - add_ssh_keys
       - node/with-cache:
           steps:
-            - run: |
-                sh """cat <<EOT >> env.production
-                    SENTRY_DSN=$SENTRY_DSN
-                    GA_TRACKING_ID=$GA_TRACKING_ID
-                EOT"""
+            - run:
+                name: Create .env.production file with secrets
+                command: |
+                echo "export SENTRY_DSN=$SENTRY_DSN" >> env.production
+                echo "export GA_TRACKING_ID=$GA_TRACKING_ID" >> env.production
             - run: |
                 npm install
             - run: |
