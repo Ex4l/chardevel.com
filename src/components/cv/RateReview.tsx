@@ -11,22 +11,12 @@ const returnView = (rate: number) => {
   const size = useWindowSize();
   const flaskSize = size.width! > 620 ? 24 : 16;
 
-  for (let i = 0; i < rate; i++) {
+  for (let i = 0; i < 10; i++) {
     view.push(
       <GiRoundBottomFlask
         key={`${rate}-${i}`}
         size={flaskSize}
-        className="rate-flask-full"
-      />
-    );
-  }
-
-  while (view.length < 10) {
-    view.push(
-      <GiRoundBottomFlask
-        key={`${rate}-${view.length + 1}`}
-        size={flaskSize}
-        className="rate-flask-empty"
+        className={`rate-flask-${i > rate ? `empty` : `full`}`}
       />
     );
   }
