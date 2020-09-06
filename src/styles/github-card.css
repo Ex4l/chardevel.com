@@ -1,22 +1,18 @@
 .github-card-container {
-  display: flex;
-  background-color: #fff;
-  border: 1px solid #d1d5da;
-  border-radius: 3px;
-  padding: 0.9rem;
-  margin-top: 1.45rem;
-  margin-bottom: 1.45rem;
+  display: inline-flex;
 }
 
 .github-card-intro {
-  height: 33px;
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
 }
 
 .github-card-link {
-  margin-left: 0.2rem;
-  margin-top: -0.7rem;
+  display: flex;
 }
 
 .github-icon {
   color: #000;
+  margin-left: 0.2rem;
 }
