@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from "react";
 import { GiRoundBottomFlask } from "react-icons/gi";
+import useWindowSize from "src/hooks/useWindowSize";
 
 interface IProps {
   rate: number;
@@ -7,12 +8,14 @@ interface IProps {
 
 const returnView = (rate: number) => {
   const view = [];
+  const size = useWindowSize();
+  const flaskSize = size.width! > 620 ? 24 : 16;
 
   for (let i = 0; i < rate; i++) {
     view.push(
       <GiRoundBottomFlask
         key={`${rate}-${i}`}
-        size={24}
+        size={flaskSize}
         className="rate-flask-full"
       />
     );
@@ -22,7 +25,7 @@ const returnView = (rate: number) => {
     view.push(
       <GiRoundBottomFlask
         key={`${rate}-${view.length + 1}`}
-        size={24}
+        size={flaskSize}
         className="rate-flask-empty"
       />
     );
