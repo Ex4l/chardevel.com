@@ -10,13 +10,15 @@ const GithubCard = () => {
 
   return (
     <CvCard>
-      <p className="github-card-intro">{t(githubData.content.intro)}</p>
-      <a
-        className="github-card-link"
-        href={`${githubData.content.link}/${githubData.content.profile}`}
-      >
-        <DiGithubFull className="github-icon" size={52} />
-      </a>
+      <div className="github-card-container">
+        <p className="github-card-intro">{t(githubData.content.intro)}</p>
+        <a
+          className="github-card-link"
+          href={`${githubData.content.link}/${githubData.content.profile}`}
+        >
+          <DiGithubFull className="github-icon" size={"3rem"} />
+        </a>
+      </div>
     </CvCard>
   );
 };
