@@ -4,7 +4,7 @@
     "english": "English"
   },
   "me": {
-    "job": "Fullstack Web Developer",
+    "job": "Fullstack Tech Lead",
     "phoneNumber": "+33 6 62 71 11 60"
   },
   "introduction": {
@@ -74,8 +74,18 @@
     "title": "I went through",
     "content": [
       {
+        "title": "Fullstack Technical Lead",
+        "time": "2020 - ",
+        "place": "Extia - Lille"
+      },
+      {
+        "title": "Architecting on AWS training",
+        "time": "2021",
+        "place": "Extia - Lille"
+      },
+      {
         "title": "Development Engineer",
-        "time": "2019 - ",
+        "time": "2019 - 2020",
         "place": "Extia - Lille"
       },
       {
@@ -168,20 +178,24 @@
         "subtitle": "Global sporting goods retail store chain"
       },
       {
+        "title": "Boulanger",
+        "subtitle": "Distributor specialized in multimedia and household appliances"
+      },
+      {
         "title": "Société Générale",
         "subtitle": "Multinational investment bank company"
       },
       {
-        "title": "Boulanger",
-        "subtitle": "Distributor specialized in multimedia and household appliances"
+        "title": "Leroy Merlin",
+        "subtitle": "Home improvement and gardening retailer"
       },
       {
         "title": "Caisse d'Epargne",
         "subtitle": "Semi-cooperative banking group"
       },
       {
-        "title": "Leroy Merlin",
-        "subtitle": "Home improvement and gardening retailer "
+        "title": "Oui SNCF",
+        "subtitle": "Tickets seller for rail travel around Europe"
       }
     ]
   }
