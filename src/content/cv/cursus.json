@@ -12,7 +12,7 @@
         "title": "cursus.content.1.title",
         "time": "cursus.content.1.time",
         "place": "cursus.content.1.place",
-        "type": "school"
+        "type": "work"
       },
       {
         "title": "cursus.content.2.title",
@@ -30,7 +30,7 @@
         "title": "cursus.content.4.title",
         "time": "cursus.content.4.time",
         "place": "cursus.content.4.place",
-        "type": "work"
+        "type": "school"
       },
       {
         "title": "cursus.content.5.title",
@@ -40,28 +40,33 @@
       },
       {
         "title": "cursus.content.6.title",
-        "subtitle": "cursus.content.6.subtitle",
         "time": "cursus.content.6.time",
         "place": "cursus.content.6.place",
-        "type": "school"
+        "type": "work"
       },
       {
         "title": "cursus.content.7.title",
         "time": "cursus.content.7.time",
         "place": "cursus.content.7.place",
-        "type": "work"
+        "type": "school"
       },
       {
         "title": "cursus.content.8.title",
         "subtitle": "cursus.content.8.subtitle",
         "time": "cursus.content.8.time",
         "place": "cursus.content.8.place",
-        "type": "school"
+        "type": "work"
       },
       {
         "title": "cursus.content.9.title",
         "time": "cursus.content.9.time",
         "place": "cursus.content.9.place",
+        "type": "school"
+      },
+      {
+        "title": "cursus.content.10.title",
+        "time": "cursus.content.10.time",
+        "place": "cursus.content.10.place",
         "type": "work"
       }
     ]

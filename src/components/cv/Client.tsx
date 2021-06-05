@@ -6,6 +6,7 @@ import CeLogo from "src/images/ce-logo.png";
 import DecathlonLogo from "src/images/dkt-logo.jpg";
 import LMLogo from "src/images/leroy-merlin-logo.jpg";
 import SocGenLogo from "src/images/socgen-logo.jpeg";
+import OuiLogo from "src/images/oui-logo.jpg"
 
 interface IProps {
   item: { icon: string; title: string; subtitle: string };
@@ -18,32 +19,38 @@ const Client: FunctionComponent<IProps> = ({ item }) => {
     switch (logo) {
       case "Décathlon":
         return (
-          <div className="decathlon-logo">
+          <div className="client-logo">
             <img src={DecathlonLogo} alt="Decathlon Logo" />
           </div>
         );
       case "Société Générale":
         return (
-          <div className="decathlon-logo">
+          <div className="client-logo">
             <img src={SocGenLogo} alt="SocGen Logo" />
           </div>
         );
       case "Boulanger":
         return (
-          <div className="decathlon-logo">
+          <div className="client-logo">
             <img src={BoulangerLogo} alt="Boulanger Logo" />
           </div>
         );
       case "Caisse d'Epargne":
         return (
-          <div className="decathlon-logo">
+          <div className="client-logo">
             <img src={CeLogo} alt="Caisse D'Epargne Logo" />
           </div>
         );
       case "Leroy Merlin":
         return (
-          <div className="decathlon-logo">
+          <div className="client-logo">
             <img src={LMLogo} alt="Leroy Merlin Logo" />
+          </div>
+        );
+      case "Oui SNCF":
+        return (
+          <div className="client-logo">
+            <img src={OuiLogo} alt="Oui SNCF Logo" />
           </div>
         );
     }
@@ -62,6 +69,8 @@ const Client: FunctionComponent<IProps> = ({ item }) => {
         return "#cd1a2d";
       case "Leroy Merlin":
         return "#48b72c";
+      case "Oui SNCF":
+        return "#ea5330";
     }
     return "white";
   };

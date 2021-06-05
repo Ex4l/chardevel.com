@@ -4,7 +4,7 @@
     "english": "English"
   },
   "me": {
-    "job": "Développeur Fullstack Web",
+    "job": "Lead Technique Fullstack",
     "phoneNumber": "06 62 71 11 60"
   },
   "introduction": {
@@ -74,8 +74,13 @@
     "title": "Je suis passé par ici",
     "content": [
       {
+        "title": "Lead Technique Fullstack",
+        "time": "2020 - ",
+        "place": "Extia - Lille"
+      },
+      {
         "title": "Ingénieur Études et Développement",
-        "time": "2019 - ",
+        "time": "2019 - 2020",
         "place": "Extia - Lille"
       },
       {
@@ -168,20 +173,24 @@
         "subtitle": "Enseigne spécialisée dans les articles de sport"
       },
       {
+        "title": "Boulanger",
+        "subtitle": "Distributeur spécialisé en multimédia et électroménager"
+      },
+      {
         "title": "Société Générale",
         "subtitle": "Pilier de l'industrie bancaire non mutualiste"
       },
       {
-        "title": "Boulanger",
-        "subtitle": "Distributeur spécialisé en multimédia et électroménager"
+        "title": "Leroy Merlin",
+        "subtitle": "Enseigne spécialisée dans l'amélioration de l'habitat"
       },
       {
         "title": "Caisse d'Epargne",
         "subtitle": "Plus grande banque commerciale du groupe BPCE"
       },
       {
-        "title": "Leroy Merlin",
-        "subtitle": "Enseigne spécialisée dans l'amélioration de l'habitat"
+        "title": "Oui SNCF",
+        "subtitle": "Oui.sncf est le distributeur de billets de SNCF"
       }
     ]
   }
