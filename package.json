@@ -30,11 +30,11 @@
     "react-vertical-timeline-component": "^2.6.2"
   },
   "devDependencies": {
-    "@types/node": "^13.13.15",
-    "@types/react": "^16.9.44",
-    "@types/react-dom": "^16.9.8",
-    "gatsby-plugin-root-import": "^2.0.5",
-    "gatsby-plugin-tsconfig-paths": "^1.0.2",
+    "@types/node": "^13.13.52",
+    "@types/react": "^16.14.8",
+    "@types/react-dom": "^16.9.13",
+    "gatsby-plugin-root-import": "^2.0.6",
+    "gatsby-plugin-tsconfig-paths": "^1.0.3",
     "gh-pages": "^2.2.0",
     "prettier": "^1.19.1"
   },
