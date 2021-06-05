@@ -2,29 +2,34 @@
   "title": "clients.title",
   "content": [
     {
-      "icon": "GiKnifeFork",
+      "icon": "",
       "title": "clients.content.0.title",
       "subtitle": "clients.content.0.subtitle"
     },
     {
-      "icon": "GiDutchBike",
+      "icon": "",
       "title": "clients.content.1.title",
       "subtitle": "clients.content.1.subtitle"
     },
     {
-      "icon": "GiMusicalNotes",
+      "icon": "",
       "title": "clients.content.2.title",
       "subtitle": "clients.content.2.subtitle"
     },
     {
-      "icon": "GiPencilBrush",
+      "icon": "",
       "title": "clients.content.3.title",
       "subtitle": "clients.content.3.subtitle"
     },
     {
-      "icon": "GiWhiteBook",
+      "icon": "",
       "title": "clients.content.4.title",
       "subtitle": "clients.content.4.subtitle"
+    },
+    {
+      "icon": "",
+      "title": "clients.content.5.title",
+      "subtitle": "clients.content.5.subtitle"
     }
   ]
 }
