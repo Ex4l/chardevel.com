@@ -3,12 +3,6 @@
   "content": {
     "skills": [
       {
-        "name": "",
-        "notions": "skills.levels.notions",
-        "practice": "skills.levels.practice",
-        "mastery": "skills.levels.mastery"
-      },
-      {
         "name": "skills.business.build.title",
         "notions": "skills.business.build.notions",
         "practice": "skills.business.build.practice",
